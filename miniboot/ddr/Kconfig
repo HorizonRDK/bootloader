@@ -1,0 +1,19 @@
+if TARGET_X2
+
+config ARCH_X2
+	bool
+	default y
+
+config SYS_BOARD
+	default "x2"
+
+config SYS_VENDOR
+	default "horizon"
+
+config SYS_SOC
+	default "x2"
+
+config SYS_CONFIG_NAME
+	default "x2"
+
+endif

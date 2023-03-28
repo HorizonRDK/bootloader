@@ -1,0 +1,2593 @@
+#ifndef __X2A_LPDDR4_MICRON_TUNING_H__
+#define __X2A_LPDDR4_MICRON_TUNING_H__
+
+
+#ifdef AA
+#define TxSlewRate_LPDDR4_MICRON 0x1FF
+#define TxOdtDrvStren_LPDDR4_MICRON 0x200
+#define TxImpedanceCtrl1_LPDDR4_MICRON 0xE3F
+#define MR11_LPDDR4_MICRON 0x66
+#define MR14_LPDDR4_MICRON 0x10
+#define MR22_LPDDR4_MICRON 0x4
+#endif
+
+#ifdef Y3
+#define TxSlewRate_LPDDR4_MICRON 0x1FF
+#define TxOdtDrvStren_LPDDR4_MICRON 0xE00
+#define TxImpedanceCtrl1_LPDDR4_MICRON 0xE3F
+#define MR11_LPDDR4_MICRON 0x65
+#define MR14_LPDDR4_MICRON 0x14
+#define MR22_LPDDR4_MICRON 0x6
+#endif
+
+#ifdef Y4
+#define TxSlewRate_LPDDR4_MICRON 0x1FF
+#define TxOdtDrvStren_LPDDR4_MICRON 0xE00
+#define TxImpedanceCtrl1_LPDDR4_MICRON 0xE3F
+#define MR11_LPDDR4_MICRON 0x66
+#define MR14_LPDDR4_MICRON 0x14
+#define MR22_LPDDR4_MICRON 0x6
+#endif
+
+#ifdef Y5
+#define TxSlewRate_LPDDR4_MICRON 0x1FF
+#define TxOdtDrvStren_LPDDR4_MICRON 0xE00
+#define TxImpedanceCtrl1_LPDDR4_MICRON 0xE3F
+#define MR11_LPDDR4_MICRON 0x66
+#define MR14_LPDDR4_MICRON 0x10
+#define MR22_LPDDR4_MICRON 0x6
+#endif
+
+
+#ifdef AB
+#define TxSlewRate_LPDDR4_MICRON 0x1FF
+#define TxOdtDrvStren_LPDDR4_MICRON 0x600
+#define TxImpedanceCtrl1_LPDDR4_MICRON 0x61F
+#define MR11_LPDDR4_MICRON 0x64
+#define MR14_LPDDR4_MICRON 0x10
+#define MR22_LPDDR4_MICRON 0x4
+#endif
+
+//#ifdef  AL)//train fail
+//#define TxSlewRate_LPDDR4_MICRON 0x1FF
+//#define TxOdtDrvStren_LPDDR4_MICRON 0x200
+//#define TxImpedanceCtrl1_LPDDR4_MICRON 0xE3F
+//#define MR11_LPDDR4_MICRON 0x66
+//#define MR14_LPDDR4_MICRON 0x10
+//#define MR22_LPDDR4_MICRON 0x2
+//#endif
+
+#ifdef AB1
+#define TxSlewRate_LPDDR4_MICRON 0x1FF
+#define TxOdtDrvStren_LPDDR4_MICRON 0x600
+#define TxImpedanceCtrl1_LPDDR4_MICRON 0x61F
+#define MR11_LPDDR4_MICRON 0x65
+#define MR14_LPDDR4_MICRON 0xC
+#define MR22_LPDDR4_MICRON 0x4
+#endif
+
+#ifdef AB2
+#define TxSlewRate_LPDDR4_MICRON 0x1FF
+#define TxOdtDrvStren_LPDDR4_MICRON 0x600
+#define TxImpedanceCtrl1_LPDDR4_MICRON 0x61F
+#define MR11_LPDDR4_MICRON 0x66
+#define MR14_LPDDR4_MICRON 0x8
+#define MR22_LPDDR4_MICRON 0x4
+#endif
+
+
+
+#ifdef AA1
+#define TxSlewRate_LPDDR4_MICRON 0x1FF
+#define TxOdtDrvStren_LPDDR4_MICRON 0x200
+#define TxImpedanceCtrl1_LPDDR4_MICRON 0x61F
+#define MR11_LPDDR4_MICRON 0x66
+#define MR14_LPDDR4_MICRON 0x8
+#define MR22_LPDDR4_MICRON 0x4
+#endif
+
+#ifdef AA2
+#define TxSlewRate_LPDDR4_MICRON 0x1FF
+#define TxOdtDrvStren_LPDDR4_MICRON 0x200
+#define TxImpedanceCtrl1_LPDDR4_MICRON 0xE1F
+#define MR11_LPDDR4_MICRON 0x66
+#define MR14_LPDDR4_MICRON 0x8
+#define MR22_LPDDR4_MICRON 0x4
+#endif
+
+#ifdef AA3
+#define TxSlewRate_LPDDR4_MICRON 0x1FF
+#define TxOdtDrvStren_LPDDR4_MICRON 0x200
+#define TxImpedanceCtrl1_LPDDR4_MICRON 0x63F
+#define MR11_LPDDR4_MICRON 0x66
+#define MR14_LPDDR4_MICRON 0x10
+#define MR22_LPDDR4_MICRON 0x4
+#endif
+
+#ifdef AA4
+#define TxSlewRate_LPDDR4_MICRON 0x1DD
+#define TxOdtDrvStren_LPDDR4_MICRON 0x200
+#define TxImpedanceCtrl1_LPDDR4_MICRON 0xE3F
+#define MR11_LPDDR4_MICRON 0x66
+#define MR14_LPDDR4_MICRON 0x10
+#define MR22_LPDDR4_MICRON 0x4
+#endif
+
+#ifdef AA5
+#define TxSlewRate_LPDDR4_MICRON 0x1DD
+#define TxOdtDrvStren_LPDDR4_MICRON 0x200
+#define TxImpedanceCtrl1_LPDDR4_MICRON 0x61F
+#define MR11_LPDDR4_MICRON 0x66
+#define MR14_LPDDR4_MICRON 0x8
+#define MR22_LPDDR4_MICRON 0x4
+#endif
+
+#ifdef AA6
+#define TxSlewRate_LPDDR4_MICRON 0x1DD
+#define TxOdtDrvStren_LPDDR4_MICRON 0x200
+#define TxImpedanceCtrl1_LPDDR4_MICRON 0xE1F
+#define MR11_LPDDR4_MICRON 0x66
+#define MR14_LPDDR4_MICRON 0x8
+#define MR22_LPDDR4_MICRON 0x4
+#endif
+
+#ifdef AA7
+#define TxSlewRate_LPDDR4_MICRON 0x1DD
+#define TxOdtDrvStren_LPDDR4_MICRON 0x200
+#define TxImpedanceCtrl1_LPDDR4_MICRON 0x63F
+#define MR11_LPDDR4_MICRON 0x66
+#define MR14_LPDDR4_MICRON 0x10
+#define MR22_LPDDR4_MICRON 0x4
+#endif
+
+#ifdef AA8
+#define TxSlewRate_LPDDR4_MICRON 0x1BB
+#define TxOdtDrvStren_LPDDR4_MICRON 0x200
+#define TxImpedanceCtrl1_LPDDR4_MICRON 0xE3F
+#define MR11_LPDDR4_MICRON 0x66
+#define MR14_LPDDR4_MICRON 0x10
+#define MR22_LPDDR4_MICRON 0x4
+#endif
+
+#ifdef AA9
+#define TxSlewRate_LPDDR4_MICRON 0x1BB
+#define TxOdtDrvStren_LPDDR4_MICRON 0x200
+#define TxImpedanceCtrl1_LPDDR4_MICRON 0x61F
+#define MR11_LPDDR4_MICRON 0x66
+#define MR14_LPDDR4_MICRON 0x8
+#define MR22_LPDDR4_MICRON 0x4
+#endif
+
+#ifdef AA10
+#define TxSlewRate_LPDDR4_MICRON 0x1BB
+#define TxOdtDrvStren_LPDDR4_MICRON 0x200
+#define TxImpedanceCtrl1_LPDDR4_MICRON 0xE1F
+#define MR11_LPDDR4_MICRON 0x66
+#define MR14_LPDDR4_MICRON 0x8
+#define MR22_LPDDR4_MICRON 0x4
+#endif
+
+#ifdef AA11
+#define TxSlewRate_LPDDR4_MICRON 0x1BB
+#define TxOdtDrvStren_LPDDR4_MICRON 0x200
+#define TxImpedanceCtrl1_LPDDR4_MICRON 0x63F
+#define MR11_LPDDR4_MICRON 0x66
+#define MR14_LPDDR4_MICRON 0x10
+#define MR22_LPDDR4_MICRON 0x4
+#endif
+
+#ifdef AA12
+#define TxSlewRate_LPDDR4_MICRON 0x1BB
+#define TxOdtDrvStren_LPDDR4_MICRON 0x600
+#define TxImpedanceCtrl1_LPDDR4_MICRON 0x63F
+#define MR11_LPDDR4_MICRON 0x66
+#define MR14_LPDDR4_MICRON 0x10
+#define MR22_LPDDR4_MICRON 0x4
+#endif
+
+#ifdef Y4A
+#define TxSlewRate_LPDDR4_MICRON 0x1FF
+#define TxOdtDrvStren_LPDDR4_MICRON 0xE00
+#define TxImpedanceCtrl1_LPDDR4_MICRON 0x61F
+#define MR11_LPDDR4_MICRON 0x66
+#define MR14_LPDDR4_MICRON 0xc
+#define MR22_LPDDR4_MICRON 0x6
+#endif
+
+#ifdef Y4B
+#define TxSlewRate_LPDDR4_MICRON 0x1FF
+#define TxOdtDrvStren_LPDDR4_MICRON 0xE00
+#define TxImpedanceCtrl1_LPDDR4_MICRON 0xE1F
+#define MR11_LPDDR4_MICRON 0x66
+#define MR14_LPDDR4_MICRON 0xc
+#define MR22_LPDDR4_MICRON 0x6
+#endif
+
+#ifdef Y4C
+#define TxSlewRate_LPDDR4_MICRON 0x1FF
+#define TxOdtDrvStren_LPDDR4_MICRON 0xE00
+#define TxImpedanceCtrl1_LPDDR4_MICRON 0x63F
+#define MR11_LPDDR4_MICRON 0x66
+#define MR14_LPDDR4_MICRON 0x14
+#define MR22_LPDDR4_MICRON 0x6
+#endif
+
+#ifdef Y4D
+#define TxSlewRate_LPDDR4_MICRON 0x1DD
+#define TxOdtDrvStren_LPDDR4_MICRON 0xE00
+#define TxImpedanceCtrl1_LPDDR4_MICRON 0xE3F
+#define MR11_LPDDR4_MICRON 0x66
+#define MR14_LPDDR4_MICRON 0x14
+#define MR22_LPDDR4_MICRON 0x6
+#endif
+
+#ifdef Y4E
+#define TxSlewRate_LPDDR4_MICRON 0x1DD
+#define TxOdtDrvStren_LPDDR4_MICRON 0xE00
+#define TxImpedanceCtrl1_LPDDR4_MICRON 0x61F
+#define MR11_LPDDR4_MICRON 0x66
+#define MR14_LPDDR4_MICRON 0xc
+#define MR22_LPDDR4_MICRON 0x6
+#endif
+
+#ifdef Y4F
+#define TxSlewRate_LPDDR4_MICRON 0x1DD
+#define TxOdtDrvStren_LPDDR4_MICRON 0xE00
+#define TxImpedanceCtrl1_LPDDR4_MICRON 0xE1F
+#define MR11_LPDDR4_MICRON 0x66
+#define MR14_LPDDR4_MICRON 0xc
+#define MR22_LPDDR4_MICRON 0x6
+#endif
+
+#ifdef Y4G
+#define TxSlewRate_LPDDR4_MICRON 0x1DD
+#define TxOdtDrvStren_LPDDR4_MICRON 0xE00
+#define TxImpedanceCtrl1_LPDDR4_MICRON 0x63F
+#define MR11_LPDDR4_MICRON 0x66
+#define MR14_LPDDR4_MICRON 0x14
+#define MR22_LPDDR4_MICRON 0x6
+#endif
+
+#ifdef Y4H
+#define TxSlewRate_LPDDR4_MICRON 0x1BB
+#define TxOdtDrvStren_LPDDR4_MICRON 0xE00
+#define TxImpedanceCtrl1_LPDDR4_MICRON 0xE3F
+#define MR11_LPDDR4_MICRON 0x66
+#define MR14_LPDDR4_MICRON 0x14
+#define MR22_LPDDR4_MICRON 0x6
+#endif
+
+#ifdef Y4I
+#define TxSlewRate_LPDDR4_MICRON 0x1BB
+#define TxOdtDrvStren_LPDDR4_MICRON 0xE00
+#define TxImpedanceCtrl1_LPDDR4_MICRON 0x61F
+#define MR11_LPDDR4_MICRON 0x66
+#define MR14_LPDDR4_MICRON 0xc
+#define MR22_LPDDR4_MICRON 0x6
+#endif
+
+#ifdef Y4J
+#define TxSlewRate_LPDDR4_MICRON 0x1BB
+#define TxOdtDrvStren_LPDDR4_MICRON 0xE00
+#define TxImpedanceCtrl1_LPDDR4_MICRON 0xE1F
+#define MR11_LPDDR4_MICRON 0x66
+#define MR14_LPDDR4_MICRON 0xc
+#define MR22_LPDDR4_MICRON 0x6
+#endif
+
+#ifdef Y4K
+#define TxSlewRate_LPDDR4_MICRON 0x1BB
+#define TxOdtDrvStren_LPDDR4_MICRON 0xE00
+#define TxImpedanceCtrl1_LPDDR4_MICRON 0x63F
+#define MR11_LPDDR4_MICRON 0x66
+#define MR14_LPDDR4_MICRON 0x14
+#define MR22_LPDDR4_MICRON 0x6
+#endif
+
+#ifdef Y5A
+#define TxSlewRate_LPDDR4_MICRON 0x1FF
+#define TxOdtDrvStren_LPDDR4_MICRON 0xE00
+#define TxImpedanceCtrl1_LPDDR4_MICRON 0x61F
+#define MR11_LPDDR4_MICRON 0x66
+#define MR14_LPDDR4_MICRON 0x8
+#define MR22_LPDDR4_MICRON 0x6
+#endif
+
+#ifdef Y5A1
+#define TxSlewRate_LPDDR4_MICRON 0x1FF
+#define TxOdtDrvStren_LPDDR4_MICRON 0x600
+#define TxImpedanceCtrl1_LPDDR4_MICRON 0x61F
+#define MR11_LPDDR4_MICRON 0x66
+#define MR14_LPDDR4_MICRON 0x8
+#define MR22_LPDDR4_MICRON 0x6
+#endif
+
+#ifdef Y5B
+#define TxSlewRate_LPDDR4_MICRON 0x1FF
+#define TxOdtDrvStren_LPDDR4_MICRON 0xE00
+#define TxImpedanceCtrl1_LPDDR4_MICRON 0xE1F
+#define MR11_LPDDR4_MICRON 0x66
+#define MR14_LPDDR4_MICRON 0x8
+#define MR22_LPDDR4_MICRON 0x6
+#endif
+
+#ifdef Y5C
+#define TxSlewRate_LPDDR4_MICRON 0x1FF
+#define TxOdtDrvStren_LPDDR4_MICRON 0xE00
+#define TxImpedanceCtrl1_LPDDR4_MICRON 0x63F
+#define MR11_LPDDR4_MICRON 0x66
+#define MR14_LPDDR4_MICRON 0x10
+#define MR22_LPDDR4_MICRON 0x6
+#endif
+
+#ifdef Y5D
+#define TxSlewRate_LPDDR4_MICRON 0x1DD
+#define TxOdtDrvStren_LPDDR4_MICRON 0xE00
+#define TxImpedanceCtrl1_LPDDR4_MICRON 0xE3F
+#define MR11_LPDDR4_MICRON 0x66
+#define MR14_LPDDR4_MICRON 0x10
+#define MR22_LPDDR4_MICRON 0x6
+#endif
+
+#ifdef Y5E
+#define TxSlewRate_LPDDR4_MICRON 0x1DD
+#define TxOdtDrvStren_LPDDR4_MICRON 0xE00
+#define TxImpedanceCtrl1_LPDDR4_MICRON 0x61F
+#define MR11_LPDDR4_MICRON 0x66
+#define MR14_LPDDR4_MICRON 0x8
+#define MR22_LPDDR4_MICRON 0x6
+#endif
+
+#ifdef Y5F
+#define TxSlewRate_LPDDR4_MICRON 0x1DD
+#define TxOdtDrvStren_LPDDR4_MICRON 0xE00
+#define TxImpedanceCtrl1_LPDDR4_MICRON 0xE1F
+#define MR11_LPDDR4_MICRON 0x66
+#define MR14_LPDDR4_MICRON 0x8
+#define MR22_LPDDR4_MICRON 0x6
+#endif
+
+#ifdef Y5G
+#define TxSlewRate_LPDDR4_MICRON 0x1DD
+#define TxOdtDrvStren_LPDDR4_MICRON 0xE00
+#define TxImpedanceCtrl1_LPDDR4_MICRON 0x63F
+#define MR11_LPDDR4_MICRON 0x66
+#define MR14_LPDDR4_MICRON 0x10
+#define MR22_LPDDR4_MICRON 0x6
+#endif
+
+#ifdef Y5H
+#define TxSlewRate_LPDDR4_MICRON 0x1BB
+#define TxOdtDrvStren_LPDDR4_MICRON 0xE00
+#define TxImpedanceCtrl1_LPDDR4_MICRON 0xE3F
+#define MR11_LPDDR4_MICRON 0x66
+#define MR14_LPDDR4_MICRON 0x10
+#define MR22_LPDDR4_MICRON 0x6
+#endif
+
+#ifdef Y5I
+#define TxSlewRate_LPDDR4_MICRON 0x1BB
+#define TxOdtDrvStren_LPDDR4_MICRON 0xE00
+#define TxImpedanceCtrl1_LPDDR4_MICRON 0x61F
+#define MR11_LPDDR4_MICRON 0x66
+#define MR14_LPDDR4_MICRON 0x8
+#define MR22_LPDDR4_MICRON 0x6
+#endif
+
+#ifdef Y5J
+#define TxSlewRate_LPDDR4_MICRON 0x1BB
+#define TxOdtDrvStren_LPDDR4_MICRON 0xE00
+#define TxImpedanceCtrl1_LPDDR4_MICRON 0xE1F
+#define MR11_LPDDR4_MICRON 0x66
+#define MR14_LPDDR4_MICRON 0x8
+#define MR22_LPDDR4_MICRON 0x6
+#endif
+
+#ifdef Y5K
+#define TxSlewRate_LPDDR4_MICRON 0x1BB
+#define TxOdtDrvStren_LPDDR4_MICRON 0xE00
+#define TxImpedanceCtrl1_LPDDR4_MICRON 0x63F
+#define MR11_LPDDR4_MICRON 0x66
+#define MR14_LPDDR4_MICRON 0x10
+#define MR22_LPDDR4_MICRON 0x6
+#endif
+
+#ifdef Y5L
+#define TxSlewRate_LPDDR4_MICRON 0x1FF
+#define TxOdtDrvStren_LPDDR4_MICRON 0xE00
+#define TxImpedanceCtrl1_LPDDR4_MICRON 0xE3F
+#define CalDrvStr0_LPDDR4_MICRON 0x11
+#define MR11_LPDDR4_MICRON 0x66
+#define MR14_LPDDR4_MICRON 0x10
+#define MR22_LPDDR4_MICRON 0x6
+#define sReserved00_LPDDR4_MICRON 0x40
+#define sReserved0E_LPDDR4_MICRON 0x14
+#endif
+
+#ifdef Y5M
+#define TxSlewRate_LPDDR4_MICRON 0x1FF
+#define TxOdtDrvStren_LPDDR4_MICRON 0xE00
+#define TxImpedanceCtrl1_LPDDR4_MICRON 0xE3F
+#define CalDrvStr0_LPDDR4_MICRON 0x11
+#define MR11_LPDDR4_MICRON 0x66
+#define MR14_LPDDR4_MICRON 0x10
+#define MR22_LPDDR4_MICRON 0x6
+#define sReserved00_LPDDR4_MICRON 0x40
+#define sReserved0E_LPDDR4_MICRON 0x17
+#endif
+
+#ifdef Y5N
+#define TxSlewRate_LPDDR4_MICRON 0x1FF
+#define TxOdtDrvStren_LPDDR4_MICRON 0xE00
+#define TxImpedanceCtrl1_LPDDR4_MICRON 0xE3F
+#define CalDrvStr0_LPDDR4_MICRON 0x11
+#define MR11_LPDDR4_MICRON 0x66
+#define MR14_LPDDR4_MICRON 0x10
+#define MR22_LPDDR4_MICRON 0x6
+#define sReserved00_LPDDR4_MICRON 0x40
+#define sReserved0E_LPDDR4_MICRON 0x04
+#define sDelay_Weight2D_LPDDR4_MICRON 0x20
+#define sVoltage_Weight2D_LPDDR4_MICRON 0xA0
+#endif
+
+#ifdef AB2A
+#define TxSlewRate_LPDDR4_MICRON 0x1DD
+#define TxOdtDrvStren_LPDDR4_MICRON 0x600
+#define TxImpedanceCtrl1_LPDDR4_MICRON 0x61F
+#define MR11_LPDDR4_MICRON 0x66
+#define MR14_LPDDR4_MICRON 0x8
+#define MR22_LPDDR4_MICRON 0x4
+#endif
+
+#ifdef AB2B
+#define TxSlewRate_LPDDR4_MICRON 0x1BB
+#define TxOdtDrvStren_LPDDR4_MICRON 0x600
+#define TxImpedanceCtrl1_LPDDR4_MICRON 0x61F
+#define MR11_LPDDR4_MICRON 0x66
+#define MR14_LPDDR4_MICRON 0x8
+#define MR22_LPDDR4_MICRON 0x4
+#endif
+
+#ifdef AB2C
+#define TxSlewRate_LPDDR4_MICRON 0x199
+#define TxOdtDrvStren_LPDDR4_MICRON 0x600
+#define TxImpedanceCtrl1_LPDDR4_MICRON 0x61F
+#define MR11_LPDDR4_MICRON 0x66
+#define MR14_LPDDR4_MICRON 0x8
+#define MR22_LPDDR4_MICRON 0x4
+#endif
+
+#ifdef AB2D
+#define TxSlewRate_LPDDR4_MICRON 0x177
+#define TxOdtDrvStren_LPDDR4_MICRON 0x600
+#define TxImpedanceCtrl1_LPDDR4_MICRON 0x61F
+//#define CalDrvStr0_LPDDR4_MICRON 0x11
+#define MR11_LPDDR4_MICRON 0x66
+#define MR14_LPDDR4_MICRON 0x8
+#define MR22_LPDDR4_MICRON 0x4
+#endif
+
+#ifdef AB2E
+#define TxSlewRate_LPDDR4_MICRON 0x1FF
+#define TxOdtDrvStren_LPDDR4_MICRON 0x600
+#define TxImpedanceCtrl1_LPDDR4_MICRON 0xE1F
+#define MR11_LPDDR4_MICRON 0x66
+#define MR14_LPDDR4_MICRON 0x8
+#define MR22_LPDDR4_MICRON 0x4
+#endif
+
+#ifdef AB2F
+#define TxSlewRate_LPDDR4_MICRON 0x1DD
+#define TxOdtDrvStren_LPDDR4_MICRON 0x600
+#define TxImpedanceCtrl1_LPDDR4_MICRON 0xE1F
+#define MR11_LPDDR4_MICRON 0x66
+#define MR14_LPDDR4_MICRON 0x8
+#define MR22_LPDDR4_MICRON 0x4
+#endif
+
+#ifdef AB2G
+#define TxSlewRate_LPDDR4_MICRON 0x1BB
+#define TxOdtDrvStren_LPDDR4_MICRON 0x600
+#define TxImpedanceCtrl1_LPDDR4_MICRON 0xE1F
+#define MR11_LPDDR4_MICRON 0x66
+#define MR14_LPDDR4_MICRON 0x8
+#define MR22_LPDDR4_MICRON 0x4
+#endif
+
+#ifdef AB2H
+#define TxSlewRate_LPDDR4_MICRON 0x199
+#define TxOdtDrvStren_LPDDR4_MICRON 0x600
+#define TxImpedanceCtrl1_LPDDR4_MICRON 0xE1F
+#define MR11_LPDDR4_MICRON 0x66
+#define MR14_LPDDR4_MICRON 0x8
+#define MR22_LPDDR4_MICRON 0x4
+#endif
+
+#ifdef AB2I
+#define TxSlewRate_LPDDR4_MICRON 0x177
+#define TxOdtDrvStren_LPDDR4_MICRON 0x600
+#define TxImpedanceCtrl1_LPDDR4_MICRON 0xE1F
+#define MR11_LPDDR4_MICRON 0x66
+#define MR14_LPDDR4_MICRON 0x8
+#define MR22_LPDDR4_MICRON 0x4
+#endif
+
+#ifdef AB2J
+#define TxSlewRate_LPDDR4_MICRON 0x1FF
+#define TxOdtDrvStren_LPDDR4_MICRON 0x600
+#define TxImpedanceCtrl1_LPDDR4_MICRON 0x63F
+#define MR11_LPDDR4_MICRON 0x66
+#define MR14_LPDDR4_MICRON 0x10
+#define MR22_LPDDR4_MICRON 0x4
+#endif
+
+#ifdef AB2K
+#define TxSlewRate_LPDDR4_MICRON 0x1DD
+#define TxOdtDrvStren_LPDDR4_MICRON 0x600
+#define TxImpedanceCtrl1_LPDDR4_MICRON 0x63F
+#define MR11_LPDDR4_MICRON 0x66
+#define MR14_LPDDR4_MICRON 0x10
+#define MR22_LPDDR4_MICRON 0x4
+#endif
+
+#ifdef AB2L
+#define TxSlewRate_LPDDR4_MICRON 0x1BB
+#define TxOdtDrvStren_LPDDR4_MICRON 0x600
+#define TxImpedanceCtrl1_LPDDR4_MICRON 0x63F
+#define MR11_LPDDR4_MICRON 0x66
+#define MR14_LPDDR4_MICRON 0x10
+#define MR22_LPDDR4_MICRON 0x4
+#endif
+
+#ifdef AB2M
+#define TxSlewRate_LPDDR4_MICRON 0x199
+#define TxOdtDrvStren_LPDDR4_MICRON 0x600
+#define TxImpedanceCtrl1_LPDDR4_MICRON 0x63F
+#define MR11_LPDDR4_MICRON 0x66
+#define MR14_LPDDR4_MICRON 0x10
+#define MR22_LPDDR4_MICRON 0x4
+#endif
+
+#ifdef AB2N
+#define TxSlewRate_LPDDR4_MICRON 0x177
+#define TxOdtDrvStren_LPDDR4_MICRON 0x600
+#define TxImpedanceCtrl1_LPDDR4_MICRON 0x63F
+#define MR11_LPDDR4_MICRON 0x66
+#define MR14_LPDDR4_MICRON 0x10
+#define MR22_LPDDR4_MICRON 0x4
+#endif
+
+#ifdef AB2O
+#define TxSlewRate_LPDDR4_MICRON 0x1FF
+#define TxOdtDrvStren_LPDDR4_MICRON 0x600
+#define TxImpedanceCtrl1_LPDDR4_MICRON 0xE3F
+#define MR11_LPDDR4_MICRON 0x66
+#define MR14_LPDDR4_MICRON 0x10
+#define MR22_LPDDR4_MICRON 0x4
+#endif
+
+#ifdef AB2P
+#define TxSlewRate_LPDDR4_MICRON 0x1DD
+#define TxOdtDrvStren_LPDDR4_MICRON 0x600
+#define TxImpedanceCtrl1_LPDDR4_MICRON 0xE3F
+#define MR11_LPDDR4_MICRON 0x66
+#define MR14_LPDDR4_MICRON 0x10
+#define MR22_LPDDR4_MICRON 0x4
+#endif
+
+#ifdef AB2Q
+#define TxSlewRate_LPDDR4_MICRON 0x1BB
+#define TxOdtDrvStren_LPDDR4_MICRON 0x600
+#define TxImpedanceCtrl1_LPDDR4_MICRON 0xE3F
+#define MR11_LPDDR4_MICRON 0x66
+#define MR14_LPDDR4_MICRON 0x10
+#define MR22_LPDDR4_MICRON 0x4
+#endif
+
+#ifdef AB2R
+#define TxSlewRate_LPDDR4_MICRON 0x199
+#define TxOdtDrvStren_LPDDR4_MICRON 0x600
+#define TxImpedanceCtrl1_LPDDR4_MICRON 0xE3F
+#define MR11_LPDDR4_MICRON 0x66
+#define MR14_LPDDR4_MICRON 0x10
+#define MR22_LPDDR4_MICRON 0x4
+#endif
+
+#ifdef AB2S
+#define TxSlewRate_LPDDR4_MICRON 0x177
+#define TxOdtDrvStren_LPDDR4_MICRON 0x600
+#define TxImpedanceCtrl1_LPDDR4_MICRON 0xE3F
+#define MR11_LPDDR4_MICRON 0x66
+#define MR14_LPDDR4_MICRON 0x10
+#define MR22_LPDDR4_MICRON 0x4
+#endif
+
+#ifdef Y5W1
+#define TxSlewRate_LPDDR4_MICRON 0x1FF
+#define TxOdtDrvStren_LPDDR4_MICRON 0xE00
+#define TxImpedanceCtrl1_LPDDR4_MICRON 0xE3F
+#define MR11_LPDDR4_MICRON 0x66
+#define MR14_LPDDR4_MICRON 0x10
+#define MR22_LPDDR4_MICRON 0x6
+#define sDelay_Weight2D_LPDDR4_MICRON 0x20
+#define sVoltage_Weight2D_LPDDR4_MICRON 0x40
+#endif
+
+#ifdef Y5W2
+#define TxSlewRate_LPDDR4_MICRON 0x1FF
+#define TxOdtDrvStren_LPDDR4_MICRON 0xE00
+#define TxImpedanceCtrl1_LPDDR4_MICRON 0xE3F
+#define MR11_LPDDR4_MICRON 0x66
+#define MR14_LPDDR4_MICRON 0x10
+#define MR22_LPDDR4_MICRON 0x6
+#define sDelay_Weight2D_LPDDR4_MICRON 0x20
+#define sVoltage_Weight2D_LPDDR4_MICRON 0x20
+#endif
+
+#ifdef Y5W3
+#define TxSlewRate_LPDDR4_MICRON 0x1FF
+#define TxOdtDrvStren_LPDDR4_MICRON 0xE00
+#define TxImpedanceCtrl1_LPDDR4_MICRON 0xE3F
+#define MR11_LPDDR4_MICRON 0x66
+#define MR14_LPDDR4_MICRON 0x10
+#define MR22_LPDDR4_MICRON 0x6
+#define sDelay_Weight2D_LPDDR4_MICRON 0x40
+#define sVoltage_Weight2D_LPDDR4_MICRON 0x80
+#endif
+
+#ifdef Y5W4
+#define TxSlewRate_LPDDR4_MICRON 0x1FF
+#define TxOdtDrvStren_LPDDR4_MICRON 0xE00
+#define TxImpedanceCtrl1_LPDDR4_MICRON 0xE3F
+#define MR11_LPDDR4_MICRON 0x66
+#define MR14_LPDDR4_MICRON 0x10
+#define MR22_LPDDR4_MICRON 0x6
+#define sDelay_Weight2D_LPDDR4_MICRON 0x40
+#define sVoltage_Weight2D_LPDDR4_MICRON 0x40
+#endif
+
+#ifdef Y5W5
+#define TxSlewRate_LPDDR4_MICRON 0x1FF
+#define TxOdtDrvStren_LPDDR4_MICRON 0xE00
+#define TxImpedanceCtrl1_LPDDR4_MICRON 0xE3F
+#define MR11_LPDDR4_MICRON 0x66
+#define MR14_LPDDR4_MICRON 0x10
+#define MR22_LPDDR4_MICRON 0x6
+#define sDelay_Weight2D_LPDDR4_MICRON 0x40
+#define sVoltage_Weight2D_LPDDR4_MICRON 0x20
+#endif
+
+#ifdef Y5W6
+#define TxSlewRate_LPDDR4_MICRON 0x1FF
+#define TxOdtDrvStren_LPDDR4_MICRON 0xE00
+#define TxImpedanceCtrl1_LPDDR4_MICRON 0xE3F
+#define MR11_LPDDR4_MICRON 0x66
+#define MR14_LPDDR4_MICRON 0x10
+#define MR22_LPDDR4_MICRON 0x6
+#define sDelay_Weight2D_LPDDR4_MICRON 0x7F
+#define sVoltage_Weight2D_LPDDR4_MICRON 0x20
+#endif
+
+#ifdef Y5W7
+#define TxSlewRate_LPDDR4_MICRON 0x1FF
+#define TxOdtDrvStren_LPDDR4_MICRON 0xE00
+#define TxImpedanceCtrl1_LPDDR4_MICRON 0xE3F
+#define MR11_LPDDR4_MICRON 0x66
+#define MR14_LPDDR4_MICRON 0x10
+#define MR22_LPDDR4_MICRON 0x6
+#define sDelay_Weight2D_LPDDR4_MICRON 0x7F
+#define sVoltage_Weight2D_LPDDR4_MICRON 0x1F
+#endif
+
+#ifdef Y5W8
+#define TxSlewRate_LPDDR4_MICRON 0x1FF
+#define TxOdtDrvStren_LPDDR4_MICRON 0xE00
+#define TxImpedanceCtrl1_LPDDR4_MICRON 0xE3F
+#define MR11_LPDDR4_MICRON 0x66
+#define MR14_LPDDR4_MICRON 0x10
+#define MR22_LPDDR4_MICRON 0x6
+#define sDelay_Weight2D_LPDDR4_MICRON 0x80
+#define sVoltage_Weight2D_LPDDR4_MICRON 0x1F
+#endif
+
+#ifdef Y5W9
+#define TxSlewRate_LPDDR4_MICRON 0x1FF
+#define TxOdtDrvStren_LPDDR4_MICRON 0xE00
+#define TxImpedanceCtrl1_LPDDR4_MICRON 0xE3F
+#define MR11_LPDDR4_MICRON 0x66
+#define MR14_LPDDR4_MICRON 0x10
+#define MR22_LPDDR4_MICRON 0x6
+#define sDelay_Weight2D_LPDDR4_MICRON 0x80
+#define sVoltage_Weight2D_LPDDR4_MICRON 0x18
+#endif
+
+#ifdef Y5W10
+#define TxSlewRate_LPDDR4_MICRON 0x1FF
+#define TxOdtDrvStren_LPDDR4_MICRON 0xE00
+#define TxImpedanceCtrl1_LPDDR4_MICRON 0xE3F
+#define MR11_LPDDR4_MICRON 0x66
+#define MR14_LPDDR4_MICRON 0x10
+#define MR22_LPDDR4_MICRON 0x6
+#define sDelay_Weight2D_LPDDR4_MICRON 0x80
+#define sVoltage_Weight2D_LPDDR4_MICRON 0x10
+#endif
+
+#ifdef Y5W11
+#define TxSlewRate_LPDDR4_MICRON 0x1FF
+#define TxOdtDrvStren_LPDDR4_MICRON 0xE00
+#define TxImpedanceCtrl1_LPDDR4_MICRON 0xE3F
+#define MR11_LPDDR4_MICRON 0x66
+#define MR14_LPDDR4_MICRON 0x10
+#define MR22_LPDDR4_MICRON 0x6
+#define sDelay_Weight2D_LPDDR4_MICRON 0x80
+#define sVoltage_Weight2D_LPDDR4_MICRON 0x10
+#endif
+
+#ifdef Y5W12
+#define TxSlewRate_LPDDR4_MICRON 0x1FF
+#define TxOdtDrvStren_LPDDR4_MICRON 0xE00
+#define TxImpedanceCtrl1_LPDDR4_MICRON 0xE3F
+#define MR11_LPDDR4_MICRON 0x66
+#define MR14_LPDDR4_MICRON 0x10
+#define MR22_LPDDR4_MICRON 0x6
+#define sDelay_Weight2D_LPDDR4_MICRON 0x90
+#define sVoltage_Weight2D_LPDDR4_MICRON 0x18
+#endif
+
+#ifdef Y5W13
+#define TxSlewRate_LPDDR4_MICRON 0x1FF
+#define TxOdtDrvStren_LPDDR4_MICRON 0xE00
+#define TxImpedanceCtrl1_LPDDR4_MICRON 0xE3F
+#define MR11_LPDDR4_MICRON 0x66
+#define MR14_LPDDR4_MICRON 0x10
+#define MR22_LPDDR4_MICRON 0x6
+#define sDelay_Weight2D_LPDDR4_MICRON 0x90
+#define sVoltage_Weight2D_LPDDR4_MICRON 0x10
+#endif
+
+#ifdef Y5W14
+#define TxSlewRate_LPDDR4_MICRON 0x1FF
+#define TxOdtDrvStren_LPDDR4_MICRON 0xE00
+#define TxImpedanceCtrl1_LPDDR4_MICRON 0xE3F
+#define MR11_LPDDR4_MICRON 0x66
+#define MR14_LPDDR4_MICRON 0x10
+#define MR22_LPDDR4_MICRON 0x6
+#define sDelay_Weight2D_LPDDR4_MICRON 0xB0
+#define sVoltage_Weight2D_LPDDR4_MICRON 0x1F
+#endif
+
+#ifdef Y5W15
+#define TxSlewRate_LPDDR4_MICRON 0x1FF
+#define TxOdtDrvStren_LPDDR4_MICRON 0xE00
+#define TxImpedanceCtrl1_LPDDR4_MICRON 0xE3F
+#define MR11_LPDDR4_MICRON 0x66
+#define MR14_LPDDR4_MICRON 0x10
+#define MR22_LPDDR4_MICRON 0x6
+#define sDelay_Weight2D_LPDDR4_MICRON 0xB0
+#define sVoltage_Weight2D_LPDDR4_MICRON 0x18
+#endif
+
+#ifdef Y5W16
+#define TxSlewRate_LPDDR4_MICRON 0x1FF
+#define TxOdtDrvStren_LPDDR4_MICRON 0xE00
+#define TxImpedanceCtrl1_LPDDR4_MICRON 0xE3F
+#define MR11_LPDDR4_MICRON 0x66
+#define MR14_LPDDR4_MICRON 0x10
+#define MR22_LPDDR4_MICRON 0x6
+#define sDelay_Weight2D_LPDDR4_MICRON 0xB0
+#define sVoltage_Weight2D_LPDDR4_MICRON 0x10
+#endif
+
+
+#ifdef Y5N2
+#define TxSlewRate_LPDDR4_MICRON 0x1FF
+#define TxOdtDrvStren_LPDDR4_MICRON 0xE00
+#define TxImpedanceCtrl1_LPDDR4_MICRON 0xE3F
+#define CalDrvStr0_LPDDR4_MICRON 0x11
+#define MR11_LPDDR4_MICRON 0x66
+#define MR14_LPDDR4_MICRON 0x10
+#define MR22_LPDDR4_MICRON 0x6
+#define sReserved00_LPDDR4_MICRON 0x40
+#define sReserved0E_LPDDR4_MICRON 0x04
+#define sDelay_Weight2D_LPDDR4_MICRON 0x20
+#define sVoltage_Weight2D_LPDDR4_MICRON 0xB0
+#endif
+
+#ifdef Y5N3
+#define TxSlewRate_LPDDR4_MICRON 0x1FF
+#define TxOdtDrvStren_LPDDR4_MICRON 0xE00
+#define TxImpedanceCtrl1_LPDDR4_MICRON 0xE3F
+#define CalDrvStr0_LPDDR4_MICRON 0x11
+#define MR11_LPDDR4_MICRON 0x66
+#define MR14_LPDDR4_MICRON 0x10
+#define MR22_LPDDR4_MICRON 0x6
+#define sReserved00_LPDDR4_MICRON 0x40
+#define sReserved0E_LPDDR4_MICRON 0x04
+#define sDelay_Weight2D_LPDDR4_MICRON 0x20
+#define sVoltage_Weight2D_LPDDR4_MICRON 0xD0
+#endif
+
+
+
+#ifdef VA0
+#define TxSlewRate_LPDDR4_MICRON 0x1FF
+#define TxOdtDrvStren_LPDDR4_MICRON 0x200
+#define TxImpedanceCtrl1_LPDDR4_MICRON 0xE3F
+#define MR11_LPDDR4_MICRON 0x66
+#define MR14_LPDDR4_MICRON 0x47
+#define MR22_LPDDR4_MICRON 0x4
+#define MR12_LPDDR4_MICRON MR14_LPDDR4_MICRON
+#endif
+
+#ifdef VA1
+#define TxSlewRate_LPDDR4_MICRON 0x1FF
+#define TxOdtDrvStren_LPDDR4_MICRON 0x200
+#define TxImpedanceCtrl1_LPDDR4_MICRON 0xE3F
+#define CalDrvStr0_LPDDR4_MICRON 0x33
+#define MR11_LPDDR4_MICRON 0x66
+#define MR14_LPDDR4_MICRON 0x47
+#define MR22_LPDDR4_MICRON 0x4
+#define MR12_LPDDR4_MICRON MR14_LPDDR4_MICRON
+#endif
+
+#ifdef VA3
+#define TxSlewRate_LPDDR4_MICRON 0x1FF
+#define TxOdtDrvStren_LPDDR4_MICRON 0x200
+#define TxImpedanceCtrl1_LPDDR4_MICRON 0xE3F
+#define MR11_LPDDR4_MICRON 0x66
+#define MR14_LPDDR4_MICRON 0x4d
+#define MR22_LPDDR4_MICRON 0x4
+#define MR12_LPDDR4_MICRON MR14_LPDDR4_MICRON
+#endif
+
+#ifdef VB1
+#define TxSlewRate_LPDDR4_MICRON 0x1FF
+#define TxOdtDrvStren_LPDDR4_MICRON 0x200
+#define TxImpedanceCtrl1_LPDDR4_MICRON 0x63F
+#define CalDrvStr0_LPDDR4_MICRON 0x33
+#define MR11_LPDDR4_MICRON 0x66
+#define MR14_LPDDR4_MICRON 0x47
+#define MR22_LPDDR4_MICRON 0x4
+#define MR12_LPDDR4_MICRON MR14_LPDDR4_MICRON
+#endif
+
+#ifdef VB2
+#define TxSlewRate_LPDDR4_MICRON 0x1FF
+#define TxOdtDrvStren_LPDDR4_MICRON 0x200
+#define TxImpedanceCtrl1_LPDDR4_MICRON 0x63F
+#define CalDrvStr0_LPDDR4_MICRON 0x44
+#define MR11_LPDDR4_MICRON 0x66
+#define MR14_LPDDR4_MICRON 0x47
+#define MR22_LPDDR4_MICRON 0x4
+#define MR12_LPDDR4_MICRON MR14_LPDDR4_MICRON
+#endif
+
+
+
+#ifdef VAR0
+#define TxSlewRate_LPDDR4_MICRON 0x1FF
+#define TxOdtDrvStren_LPDDR4_MICRON 0x200
+#define TxImpedanceCtrl1_LPDDR4_MICRON 0xE3F
+#define MR11_LPDDR4_MICRON 0x65
+#define MR14_LPDDR4_MICRON 0x4D
+#define MR22_LPDDR4_MICRON 0x4
+#define MR12_LPDDR4_MICRON MR14_LPDDR4_MICRON
+#endif
+
+#ifdef VAR1
+#define TxSlewRate_LPDDR4_MICRON 0x1FF
+#define TxOdtDrvStren_LPDDR4_MICRON 0x200
+#define TxImpedanceCtrl1_LPDDR4_MICRON 0xE3F
+#define MR11_LPDDR4_MICRON 0x65
+#define MR14_LPDDR4_MICRON 0x51
+#define MR22_LPDDR4_MICRON 0x4
+#define MR12_LPDDR4_MICRON MR14_LPDDR4_MICRON
+#endif
+
+#ifdef VAR2
+#define TxSlewRate_LPDDR4_MICRON 0x1FF
+#define TxOdtDrvStren_LPDDR4_MICRON 0x200
+#define TxImpedanceCtrl1_LPDDR4_MICRON 0xE3F
+#define MR11_LPDDR4_MICRON 0x65
+#define MR14_LPDDR4_MICRON 0x55
+#define MR22_LPDDR4_MICRON 0x4
+#define MR12_LPDDR4_MICRON MR14_LPDDR4_MICRON
+#endif
+
+#ifdef VC0
+#define TxSlewRate_LPDDR4_MICRON 0x1BB
+#define TxOdtDrvStren_LPDDR4_MICRON 0x200
+#define TxImpedanceCtrl1_LPDDR4_MICRON 0x63F
+#define MR11_LPDDR4_MICRON 0x66
+#define MR14_LPDDR4_MICRON 0x4C
+#define MR22_LPDDR4_MICRON 0x4
+#define MR12_LPDDR4_MICRON MR14_LPDDR4_MICRON
+#endif
+
+#ifdef VC1
+#define TxSlewRate_LPDDR4_MICRON 0x1FF
+#define TxOdtDrvStren_LPDDR4_MICRON 0x200
+#define TxImpedanceCtrl1_LPDDR4_MICRON 0x63F
+#define MR11_LPDDR4_MICRON 0x66
+#define MR14_LPDDR4_MICRON 0x4C
+#define MR22_LPDDR4_MICRON 0x4
+#define MR12_LPDDR4_MICRON MR14_LPDDR4_MICRON
+#endif
+
+#ifdef VC2
+#define TxSlewRate_LPDDR4_MICRON 0x1FF
+#define TxOdtDrvStren_LPDDR4_MICRON 0x600
+#define TxImpedanceCtrl1_LPDDR4_MICRON 0x63F
+#define MR11_LPDDR4_MICRON 0x66
+#define MR14_LPDDR4_MICRON 0x4C
+#define MR22_LPDDR4_MICRON 0x4
+#define MR12_LPDDR4_MICRON MR14_LPDDR4_MICRON
+#endif
+
+#ifdef VC3
+#define TxSlewRate_LPDDR4_MICRON 0x1FF
+#define TxOdtDrvStren_LPDDR4_MICRON 0x600
+#define TxImpedanceCtrl1_LPDDR4_MICRON 0x61F
+#define MR11_LPDDR4_MICRON 0x64
+#define MR14_LPDDR4_MICRON 0x4C
+#define MR22_LPDDR4_MICRON 0x4
+#define MR12_LPDDR4_MICRON MR14_LPDDR4_MICRON
+#endif
+
+#ifdef VC4
+#define TxSlewRate_LPDDR4_MICRON 0x1FF
+#define TxOdtDrvStren_LPDDR4_MICRON 0x600
+#define TxImpedanceCtrl1_LPDDR4_MICRON 0x61F
+#define MR11_LPDDR4_MICRON 0x65
+#define MR14_LPDDR4_MICRON 0x44
+#define MR22_LPDDR4_MICRON 0x4
+#define MR12_LPDDR4_MICRON MR14_LPDDR4_MICRON
+#endif
+
+#ifdef VC5
+#define TxSlewRate_LPDDR4_MICRON 0x1FF
+#define TxOdtDrvStren_LPDDR4_MICRON 0x600
+#define TxImpedanceCtrl1_LPDDR4_MICRON 0x63F
+#define MR11_LPDDR4_MICRON 0x65
+#define MR14_LPDDR4_MICRON 0x51
+#define MR22_LPDDR4_MICRON 0x4
+#define MR12_LPDDR4_MICRON MR14_LPDDR4_MICRON
+#endif
+
+#ifdef VC6
+#define TxSlewRate_LPDDR4_MICRON 0x1FF
+#define TxOdtDrvStren_LPDDR4_MICRON 0x600
+#define TxImpedanceCtrl1_LPDDR4_MICRON 0x63F
+#define MR11_LPDDR4_MICRON 0x65
+#define MR14_LPDDR4_MICRON 0x4D
+#define MR22_LPDDR4_MICRON 0x4
+#define MR12_LPDDR4_MICRON MR14_LPDDR4_MICRON
+#endif
+
+#ifdef VC7
+#define TxSlewRate_LPDDR4_MICRON 0x1FF
+#define TxOdtDrvStren_LPDDR4_MICRON 0x600
+#define TxImpedanceCtrl1_LPDDR4_MICRON 0x63F
+#define MR11_LPDDR4_MICRON 0x65
+#define MR14_LPDDR4_MICRON 0x4F
+#define MR22_LPDDR4_MICRON 0x4
+#define MR12_LPDDR4_MICRON MR14_LPDDR4_MICRON
+#endif
+
+#ifdef VC8
+#define TxSlewRate_LPDDR4_MICRON 0x1FF
+#define TxOdtDrvStren_LPDDR4_MICRON 0x200
+#define TxImpedanceCtrl1_LPDDR4_MICRON 0x63F
+#define MR11_LPDDR4_MICRON 0x65
+#define MR14_LPDDR4_MICRON 0x4F
+#define MR22_LPDDR4_MICRON 0x4
+#define MR12_LPDDR4_MICRON MR14_LPDDR4_MICRON
+#endif
+
+#ifdef VC9
+#define TxSlewRate_LPDDR4_MICRON 0x1FF
+#define TxOdtDrvStren_LPDDR4_MICRON 0xE00
+#define TxImpedanceCtrl1_LPDDR4_MICRON 0xE3F
+#define MR11_LPDDR4_MICRON 0x66
+#define MR14_LPDDR4_MICRON 0x4A
+#define MR22_LPDDR4_MICRON 0x6
+#define MR12_LPDDR4_MICRON MR14_LPDDR4_MICRON
+#endif
+
+#ifdef VC10
+#define TxSlewRate_LPDDR4_MICRON 0x1FF
+#define TxOdtDrvStren_LPDDR4_MICRON 0xE00
+#define TxImpedanceCtrl1_LPDDR4_MICRON 0x63F
+#define MR11_LPDDR4_MICRON 0x66
+#define MR14_LPDDR4_MICRON 0x4A
+#define MR22_LPDDR4_MICRON 0x6
+#define MR12_LPDDR4_MICRON MR14_LPDDR4_MICRON
+#endif
+
+#ifdef VC11
+#define TxSlewRate_LPDDR4_MICRON 0x1FF
+#define TxOdtDrvStren_LPDDR4_MICRON 0xE00
+#define TxImpedanceCtrl1_LPDDR4_MICRON 0x63F
+#define MR11_LPDDR4_MICRON 0x65
+#define MR14_LPDDR4_MICRON 0x4F
+#define MR22_LPDDR4_MICRON 0x6
+#define MR12_LPDDR4_MICRON MR14_LPDDR4_MICRON
+#endif
+
+#ifdef VC12
+#define TxSlewRate_LPDDR4_MICRON 0x1FF
+#define TxOdtDrvStren_LPDDR4_MICRON 0x600
+#define TxImpedanceCtrl1_LPDDR4_MICRON 0x61F
+#define CalDrvStr0_LPDDR4_MICRON 0x33
+#define MR11_LPDDR4_MICRON 0x66
+#define MR14_LPDDR4_MICRON 0x1B
+#define MR22_LPDDR4_MICRON 0x4
+#define MR12_LPDDR4_MICRON MR14_LPDDR4_MICRON
+#endif
+
+#ifdef VC13
+#define TxSlewRate_LPDDR4_MICRON 0x1FF
+#define TxOdtDrvStren_LPDDR4_MICRON 0x600
+#define TxImpedanceCtrl1_LPDDR4_MICRON 0x60F
+#define CalDrvStr0_LPDDR4_MICRON 0x33
+#define MR11_LPDDR4_MICRON 0x64
+#define MR14_LPDDR4_MICRON 0x13
+#define MR22_LPDDR4_MICRON 0x4
+#define MR12_LPDDR4_MICRON MR14_LPDDR4_MICRON
+#endif
+
+#ifdef VS0
+#define TxSlewRate_LPDDR4_MICRON 0x1BB
+#define TxOdtDrvStren_LPDDR4_MICRON 0x200
+#define TxImpedanceCtrl1_LPDDR4_MICRON 0x63F
+#define MR11_LPDDR4_MICRON 0x66
+#define MR14_LPDDR4_MICRON 0x4C
+#define MR22_LPDDR4_MICRON 0x4
+#define MR12_LPDDR4_MICRON MR14_LPDDR4_MICRON
+#endif
+
+#ifdef VS1
+#define TxSlewRate_LPDDR4_MICRON 0x1BB
+#define TxOdtDrvStren_LPDDR4_MICRON 0x200
+#define TxImpedanceCtrl1_LPDDR4_MICRON 0x63F
+#define MR11_LPDDR4_MICRON 0x65
+#define MR14_LPDDR4_MICRON 0x4F
+#define MR22_LPDDR4_MICRON 0x4
+#define MR12_LPDDR4_MICRON MR14_LPDDR4_MICRON
+#endif
+
+#ifdef VS2
+#define TxSlewRate_LPDDR4_MICRON 0x1BB
+#define TxOdtDrvStren_LPDDR4_MICRON 0x600
+#define TxImpedanceCtrl1_LPDDR4_MICRON 0x63F
+#define MR11_LPDDR4_MICRON 0x66
+#define MR14_LPDDR4_MICRON 0x4C
+#define MR22_LPDDR4_MICRON 0x4
+#define MR12_LPDDR4_MICRON MR14_LPDDR4_MICRON
+#endif
+
+#ifdef VS3
+#define TxSlewRate_LPDDR4_MICRON 0x1BB
+#define TxOdtDrvStren_LPDDR4_MICRON 0x600
+#define TxImpedanceCtrl1_LPDDR4_MICRON 0x63F
+#define MR11_LPDDR4_MICRON 0x65
+#define MR14_LPDDR4_MICRON 0x4F
+#define MR22_LPDDR4_MICRON 0x4
+#define MR12_LPDDR4_MICRON MR14_LPDDR4_MICRON
+#endif
+
+#ifdef VS4
+#define TxSlewRate_LPDDR4_MICRON 0x1BB
+#define TxOdtDrvStren_LPDDR4_MICRON 0xE00
+#define TxImpedanceCtrl1_LPDDR4_MICRON 0x63F
+#define MR11_LPDDR4_MICRON 0x66
+#define MR14_LPDDR4_MICRON 0x4A
+#define MR22_LPDDR4_MICRON 0x6
+#define MR12_LPDDR4_MICRON MR14_LPDDR4_MICRON
+#endif
+
+#ifdef VS5
+#define TxSlewRate_LPDDR4_MICRON 0x1BB
+#define TxOdtDrvStren_LPDDR4_MICRON 0xE00
+#define TxImpedanceCtrl1_LPDDR4_MICRON 0x63F
+#define MR11_LPDDR4_MICRON 0x65
+#define MR14_LPDDR4_MICRON 0x4F
+#define MR22_LPDDR4_MICRON 0x6
+#define MR12_LPDDR4_MICRON MR14_LPDDR4_MICRON
+#endif
+
+#ifdef VC1A
+#define TxSlewRate_LPDDR4_MICRON 0x1FF
+#define TxOdtDrvStren_LPDDR4_MICRON 0x200
+#define TxImpedanceCtrl1_LPDDR4_MICRON 0x63F
+#define MR11_LPDDR4_MICRON 0x66
+#define MR14_LPDDR4_MICRON 0x4C
+#define MR22_LPDDR4_MICRON 0x4
+#define MR12_LPDDR4_MICRON MR14_LPDDR4_MICRON
+#define MR3_LPDDR4_MICRON 0xb2
+#endif
+
+#ifdef VC1B
+#define TxSlewRate_LPDDR4_MICRON 0x1FF
+#define TxOdtDrvStren_LPDDR4_MICRON 0x600
+#define TxImpedanceCtrl1_LPDDR4_MICRON 0x61F
+#define CalDrvStr0_LPDDR4_MICRON 0x33
+#define MR11_LPDDR4_MICRON 0x66
+#define MR14_LPDDR4_MICRON 0x1B
+#define MR22_LPDDR4_MICRON 0x4
+#define MR12_LPDDR4_MICRON MR14_LPDDR4_MICRON
+#define MR3_LPDDR4_MICRON 0xb2
+#endif
+
+#ifdef VC14
+#define TxSlewRate_LPDDR4_MICRON 0x1FF
+#define TxOdtDrvStren_LPDDR4_MICRON 0x600
+#define TxImpedanceCtrl1_LPDDR4_MICRON 0x61F
+#define CalDrvStr0_LPDDR4_MICRON 0x11
+#define MR11_LPDDR4_MICRON 0x66
+#define MR14_LPDDR4_MICRON 0x1B
+#define MR22_LPDDR4_MICRON 0x4
+#define MR12_LPDDR4_MICRON MR14_LPDDR4_MICRON
+#endif
+
+#ifdef VC15
+#define TxSlewRate_LPDDR4_MICRON 0x1FF
+#define TxOdtDrvStren_LPDDR4_MICRON 0x600
+#define TxImpedanceCtrl1_LPDDR4_MICRON 0xE1F
+#define CalDrvStr0_LPDDR4_MICRON 0x11
+#define MR11_LPDDR4_MICRON 0x66
+#define MR14_LPDDR4_MICRON 0x1B
+#define MR22_LPDDR4_MICRON 0x4
+#define MR12_LPDDR4_MICRON MR14_LPDDR4_MICRON
+#endif
+
+#ifdef VC16
+#define TxSlewRate_LPDDR4_MICRON 0x1FF
+#define TxOdtDrvStren_LPDDR4_MICRON 0x600
+#define TxImpedanceCtrl1_LPDDR4_MICRON 0x21F
+#define CalDrvStr0_LPDDR4_MICRON 0x11
+#define MR11_LPDDR4_MICRON 0x66
+#define MR14_LPDDR4_MICRON 0x1B
+#define MR22_LPDDR4_MICRON 0x4
+#define MR12_LPDDR4_MICRON MR14_LPDDR4_MICRON
+#endif
+
+#ifdef VX0
+#define ATxImpedance_LPDDR4_MICRON 0x30
+#define TxSlewRate_LPDDR4_MICRON 0x1FF
+#define TxOdtDrvStren_LPDDR4_MICRON 0x600
+#define TxImpedanceCtrl1_LPDDR4_MICRON 0x604
+#define CalDrvStr0_LPDDR4_MICRON 0x33
+#define MR11_LPDDR4_MICRON 0x66
+#define MR14_LPDDR4_MICRON 0x1B
+#define MR22_LPDDR4_MICRON 0x4
+#define MR12_LPDDR4_MICRON MR14_LPDDR4_MICRON
+#endif
+
+#ifdef VX1
+#define ATxImpedance_LPDDR4_MICRON 0x30
+#define TxSlewRate_LPDDR4_MICRON 0x1FF
+#define TxOdtDrvStren_LPDDR4_MICRON 0x600
+#define TxImpedanceCtrl1_LPDDR4_MICRON 0x604
+#define CalDrvStr0_LPDDR4_MICRON 0x44
+#define MR11_LPDDR4_MICRON 0x66
+#define MR14_LPDDR4_MICRON 0x1B
+#define MR22_LPDDR4_MICRON 0x4
+#define MR12_LPDDR4_MICRON MR14_LPDDR4_MICRON
+#endif
+
+#ifdef VX2
+#define ATxImpedance_LPDDR4_MICRON 0x30
+#define TxSlewRate_LPDDR4_MICRON 0x1FF
+#define TxOdtDrvStren_LPDDR4_MICRON 0x600
+#define TxImpedanceCtrl1_LPDDR4_MICRON 0x604
+#define CalDrvStr0_LPDDR4_MICRON 0x11
+#define MR11_LPDDR4_MICRON 0x66
+#define MR14_LPDDR4_MICRON 0x1B
+#define MR22_LPDDR4_MICRON 0x4
+#define MR12_LPDDR4_MICRON MR14_LPDDR4_MICRON
+#endif
+
+#ifdef AA3A
+#define ATxSlewRate_LPDDR4_MICRON 0x15F
+#define ATxImpedance_LPDDR4_MICRON 0x3F
+#define TxSlewRate_LPDDR4_MICRON 0x17F
+#define TxOdtDrvStren_LPDDR4_MICRON 0x200
+#define TxImpedanceCtrl1_LPDDR4_MICRON 0x63F
+#define MR11_LPDDR4_MICRON 0x66
+#define MR14_LPDDR4_MICRON 0x4C
+#define MR22_LPDDR4_MICRON 0x4
+#define MR12_LPDDR4_MICRON MR14_LPDDR4_MICRON
+#endif
+
+#ifdef AA3B
+#define ATxSlewRate_LPDDR4_MICRON 0x15F
+#define ATxImpedance_LPDDR4_MICRON 0x3F
+#define TxSlewRate_LPDDR4_MICRON 0x19F
+#define TxOdtDrvStren_LPDDR4_MICRON 0x200
+#define TxImpedanceCtrl1_LPDDR4_MICRON 0x63F
+#define MR11_LPDDR4_MICRON 0x66
+#define MR14_LPDDR4_MICRON 0x4C
+#define MR22_LPDDR4_MICRON 0x4
+#define MR12_LPDDR4_MICRON MR14_LPDDR4_MICRON
+#endif
+
+#ifdef AA3C
+#define ATxSlewRate_LPDDR4_MICRON 0x19F
+#define ATxImpedance_LPDDR4_MICRON 0x3F
+#define TxSlewRate_LPDDR4_MICRON 0x19F
+#define TxOdtDrvStren_LPDDR4_MICRON 0x200
+#define TxImpedanceCtrl1_LPDDR4_MICRON 0x63F
+#define MR11_LPDDR4_MICRON 0x66
+#define MR14_LPDDR4_MICRON 0x4C
+#define MR22_LPDDR4_MICRON 0x4
+#define MR12_LPDDR4_MICRON MR14_LPDDR4_MICRON
+#define MR3_LPDDR4_MICRON 0xb2
+#endif
+
+#ifdef AA3D
+#define ATxSlewRate_LPDDR4_MICRON 0x1FF
+#define ATxImpedance_LPDDR4_MICRON 0x3F
+#define TxSlewRate_LPDDR4_MICRON 0x1FF
+#define TxOdtDrvStren_LPDDR4_MICRON 0x200
+#define TxImpedanceCtrl1_LPDDR4_MICRON 0x63F
+#define MR11_LPDDR4_MICRON 0x66
+#define MR14_LPDDR4_MICRON 0x4C
+#define MR22_LPDDR4_MICRON 0x4
+#define MR12_LPDDR4_MICRON MR14_LPDDR4_MICRON
+#define MR3_LPDDR4_MICRON 0xb3
+#endif
+
+#ifdef VF1
+#define ATxSlewRate_LPDDR4_MICRON 0x1BF
+#define ATxImpedance_LPDDR4_MICRON 0x3F
+#define TxSlewRate_LPDDR4_MICRON 0x1BF
+#define TxOdtDrvStren_LPDDR4_MICRON 0x200
+#define TxImpedanceCtrl1_LPDDR4_MICRON 0x63F
+#define MR11_LPDDR4_MICRON 0x66
+#define MR14_LPDDR4_MICRON 0x4C
+#define MR22_LPDDR4_MICRON 0x4
+#define MR12_LPDDR4_MICRON MR14_LPDDR4_MICRON
+#define MR3_LPDDR4_MICRON 0xb2
+#endif
+
+#ifdef VF2
+#define ATxSlewRate_LPDDR4_MICRON 0x1FF
+#define ATxImpedance_LPDDR4_MICRON 0x3F
+#define TxSlewRate_LPDDR4_MICRON 0x1FF
+#define TxOdtDrvStren_LPDDR4_MICRON 0x200
+#define TxImpedanceCtrl1_LPDDR4_MICRON 0x63F
+#define MR11_LPDDR4_MICRON 0x66
+#define MR14_LPDDR4_MICRON 0x4C
+#define MR22_LPDDR4_MICRON 0x4
+#define MR12_LPDDR4_MICRON MR14_LPDDR4_MICRON
+#define MR3_LPDDR4_MICRON 0xb2
+#endif
+
+
+#ifdef VG0
+#define ATxSlewRate_LPDDR4_MICRON 0x19F
+#define ATxImpedance_LPDDR4_MICRON 0x3F
+#define TxSlewRate_LPDDR4_MICRON 0x19F
+#define TxOdtDrvStren_LPDDR4_MICRON 0x600
+#define TxImpedanceCtrl1_LPDDR4_MICRON 0x63F
+#define MR11_LPDDR4_MICRON 0x66
+#define MR14_LPDDR4_MICRON 0x4C
+#define MR22_LPDDR4_MICRON 0x4
+#define MR12_LPDDR4_MICRON MR14_LPDDR4_MICRON
+#define MR3_LPDDR4_MICRON 0xb2
+#endif
+
+#ifdef VG1
+#define ATxSlewRate_LPDDR4_MICRON 0x1BF
+#define ATxImpedance_LPDDR4_MICRON 0x3F
+#define TxSlewRate_LPDDR4_MICRON 0x1BF
+#define TxOdtDrvStren_LPDDR4_MICRON 0x600
+#define TxImpedanceCtrl1_LPDDR4_MICRON 0x63F
+#define MR11_LPDDR4_MICRON 0x66
+#define MR14_LPDDR4_MICRON 0x4C
+#define MR22_LPDDR4_MICRON 0x4
+#define MR12_LPDDR4_MICRON MR14_LPDDR4_MICRON
+#define MR3_LPDDR4_MICRON 0xb2
+#endif
+
+#ifdef VG2
+#define ATxSlewRate_LPDDR4_MICRON 0x1FF
+#define ATxImpedance_LPDDR4_MICRON 0x3F
+#define TxSlewRate_LPDDR4_MICRON 0x1FF
+#define TxOdtDrvStren_LPDDR4_MICRON 0x600
+#define TxImpedanceCtrl1_LPDDR4_MICRON 0x63F
+#define MR11_LPDDR4_MICRON 0x66
+#define MR14_LPDDR4_MICRON 0x4C
+#define MR22_LPDDR4_MICRON 0x4
+#define MR12_LPDDR4_MICRON MR14_LPDDR4_MICRON
+#define MR3_LPDDR4_MICRON 0xb2
+#endif
+
+#ifdef VH0
+#define ATxSlewRate_LPDDR4_MICRON 0x19F
+#define ATxImpedance_LPDDR4_MICRON 0x3F
+#define TxSlewRate_LPDDR4_MICRON 0x19F
+#define TxOdtDrvStren_LPDDR4_MICRON 0xE00
+#define TxImpedanceCtrl1_LPDDR4_MICRON 0x63F
+#define MR11_LPDDR4_MICRON 0x66
+#define MR14_LPDDR4_MICRON 0x4C
+#define MR22_LPDDR4_MICRON 0x4
+#define MR12_LPDDR4_MICRON MR14_LPDDR4_MICRON
+#define MR3_LPDDR4_MICRON 0xb2
+#endif
+
+#ifdef VH0_2
+#define ATxSlewRate_LPDDR4_MICRON 0x19F
+#define ATxImpedance_LPDDR4_MICRON 0x3F
+#define TxSlewRate_LPDDR4_MICRON 0x19F
+#define TxOdtDrvStren_LPDDR4_MICRON 0xE00
+#define TxImpedanceCtrl1_LPDDR4_MICRON 0x63F
+#define MR11_LPDDR4_MICRON 0x66
+#define MR14_LPDDR4_MICRON 0x4C
+#define MR22_LPDDR4_MICRON 0x6
+#define MR12_LPDDR4_MICRON MR14_LPDDR4_MICRON
+#define MR3_LPDDR4_MICRON 0xb2
+#endif
+
+#ifdef VH1
+#define ATxSlewRate_LPDDR4_MICRON 0x1BF
+#define ATxImpedance_LPDDR4_MICRON 0x3F
+#define TxSlewRate_LPDDR4_MICRON 0x1BF
+#define TxOdtDrvStren_LPDDR4_MICRON 0xE00
+#define TxImpedanceCtrl1_LPDDR4_MICRON 0x63F
+#define MR11_LPDDR4_MICRON 0x66
+#define MR14_LPDDR4_MICRON 0x4C
+#define MR22_LPDDR4_MICRON 0x4
+#define MR12_LPDDR4_MICRON MR14_LPDDR4_MICRON
+#define MR3_LPDDR4_MICRON 0xb2
+#endif
+
+#ifdef VH2
+#define ATxSlewRate_LPDDR4_MICRON 0x1FF
+#define ATxImpedance_LPDDR4_MICRON 0x3F
+#define TxSlewRate_LPDDR4_MICRON 0x1FF
+#define TxOdtDrvStren_LPDDR4_MICRON 0xE00
+#define TxImpedanceCtrl1_LPDDR4_MICRON 0x63F
+#define MR11_LPDDR4_MICRON 0x66
+#define MR14_LPDDR4_MICRON 0x4C
+#define MR22_LPDDR4_MICRON 0x4
+#define MR12_LPDDR4_MICRON MR14_LPDDR4_MICRON
+#define MR3_LPDDR4_MICRON 0xb2
+#endif
+
+#ifdef VH0B
+#define ATxSlewRate_LPDDR4_MICRON 0x19F
+#define ATxImpedance_LPDDR4_MICRON 0x3F
+#define TxSlewRate_LPDDR4_MICRON 0x19F
+#define TxOdtDrvStren_LPDDR4_MICRON 0xE00
+#define TxImpedanceCtrl1_LPDDR4_MICRON 0x63F
+#define MR11_LPDDR4_MICRON 0x66
+#define MR14_LPDDR4_MICRON 0x4C
+#define MR22_LPDDR4_MICRON 0x4
+#define MR12_LPDDR4_MICRON MR14_LPDDR4_MICRON
+#define MR3_LPDDR4_MICRON 0xb3
+#endif
+
+#ifdef VH0D
+#define ATxSlewRate_LPDDR4_MICRON 0x19F
+#define ATxImpedance_LPDDR4_MICRON 0x3F
+#define TxSlewRate_LPDDR4_MICRON 0x19F
+#define TxOdtDrvStren_LPDDR4_MICRON 0xE00
+#define TxImpedanceCtrl1_LPDDR4_MICRON 0x63F
+#define MR11_LPDDR4_MICRON 0x66
+#define MR14_LPDDR4_MICRON 0x4C
+#define MR22_LPDDR4_MICRON 0x4
+#define MR12_LPDDR4_MICRON MR14_LPDDR4_MICRON
+#define MR3_LPDDR4_MICRON 0xa2
+#endif
+
+
+#ifdef VH0D_2
+#define ATxSlewRate_LPDDR4_MICRON 0x19F
+#define ATxImpedance_LPDDR4_MICRON 0x3F
+#define TxSlewRate_LPDDR4_MICRON 0x19F
+#define TxOdtDrvStren_LPDDR4_MICRON 0xE00
+#define TxImpedanceCtrl1_LPDDR4_MICRON 0x63F
+#define MR11_LPDDR4_MICRON 0x66
+#define MR14_LPDDR4_MICRON 0x4C
+#define MR22_LPDDR4_MICRON 0x6
+#define MR12_LPDDR4_MICRON MR14_LPDDR4_MICRON
+#define MR3_LPDDR4_MICRON 0xa2
+#endif
+
+#ifdef VH0E
+#define ATxSlewRate_LPDDR4_MICRON 0x19F
+#define ATxImpedance_LPDDR4_MICRON 0x3F
+#define TxSlewRate_LPDDR4_MICRON 0x19F
+#define TxOdtDrvStren_LPDDR4_MICRON 0x600
+#define TxImpedanceCtrl1_LPDDR4_MICRON 0x63F
+#define MR11_LPDDR4_MICRON 0x66
+#define MR14_LPDDR4_MICRON 0x4C
+#define MR22_LPDDR4_MICRON 0x6
+#define MR12_LPDDR4_MICRON MR14_LPDDR4_MICRON
+#define MR3_LPDDR4_MICRON 0xa2
+#endif
+
+#ifdef VH0F
+#define ATxSlewRate_LPDDR4_MICRON 0x19F
+#define ATxImpedance_LPDDR4_MICRON 0x3F
+#define TxSlewRate_LPDDR4_MICRON 0x19F
+#define TxOdtDrvStren_LPDDR4_MICRON 0x200
+#define TxImpedanceCtrl1_LPDDR4_MICRON 0x63F
+#define MR11_LPDDR4_MICRON 0x66
+#define MR14_LPDDR4_MICRON 0x4C
+#define MR22_LPDDR4_MICRON 0x6
+#define MR12_LPDDR4_MICRON MR14_LPDDR4_MICRON
+#define MR3_LPDDR4_MICRON 0xB2
+#endif
+
+#ifdef VH0G
+#define ATxSlewRate_LPDDR4_MICRON 0x19F
+#define ATxImpedance_LPDDR4_MICRON 0x3D
+#define TxSlewRate_LPDDR4_MICRON 0x19F
+#define TxOdtDrvStren_LPDDR4_MICRON 0xE00
+#define TxImpedanceCtrl1_LPDDR4_MICRON 0x61F
+#define MR11_LPDDR4_MICRON 0x66
+#define MR14_LPDDR4_MICRON 0x1B
+#define MR22_LPDDR4_MICRON 0x6
+#define MR12_LPDDR4_MICRON MR14_LPDDR4_MICRON
+#define MR3_LPDDR4_MICRON 0xa2
+#endif
+
+#ifdef VH0H
+#define ATxSlewRate_LPDDR4_MICRON 0x19F
+#define ATxImpedance_LPDDR4_MICRON 0x3D
+#define TxSlewRate_LPDDR4_MICRON 0x19F
+#define TxOdtDrvStren_LPDDR4_MICRON 0x600
+#define TxImpedanceCtrl1_LPDDR4_MICRON 0x61F
+#define MR11_LPDDR4_MICRON 0x66
+#define MR14_LPDDR4_MICRON 0x1B
+#define MR22_LPDDR4_MICRON 0x6
+#define MR12_LPDDR4_MICRON MR14_LPDDR4_MICRON
+#define MR3_LPDDR4_MICRON 0xa2
+#endif
+
+#ifdef VH0I
+#define ATxSlewRate_LPDDR4_MICRON 0x19F
+#define ATxImpedance_LPDDR4_MICRON 0x3D
+#define TxSlewRate_LPDDR4_MICRON 0x19F
+#define TxOdtDrvStren_LPDDR4_MICRON 0x200
+#define TxImpedanceCtrl1_LPDDR4_MICRON 0x61F
+#define MR11_LPDDR4_MICRON 0x66
+#define MR14_LPDDR4_MICRON 0x1B
+#define MR22_LPDDR4_MICRON 0x6
+#define MR12_LPDDR4_MICRON MR14_LPDDR4_MICRON
+#define MR3_LPDDR4_MICRON 0xb2
+#endif
+
+
+
+
+#ifdef VR0
+#define ATxSlewRate_LPDDR4_MICRON 0x19F
+#define ATxImpedance_LPDDR4_MICRON 0x3F
+#define TxSlewRate_LPDDR4_MICRON 0x19F
+#define TxOdtDrvStren_LPDDR4_MICRON 0xE00
+#define TxImpedanceCtrl1_LPDDR4_MICRON 0x63F
+#define MR11_LPDDR4_MICRON 0x65
+#define MR14_LPDDR4_MICRON 0x4D
+#define MR22_LPDDR4_MICRON 0x6
+#define MR12_LPDDR4_MICRON MR14_LPDDR4_MICRON
+#define MR3_LPDDR4_MICRON 0xa2
+#endif
+
+#ifdef VR1
+#define ATxSlewRate_LPDDR4_MICRON 0x19F
+#define ATxImpedance_LPDDR4_MICRON 0x3F
+#define TxSlewRate_LPDDR4_MICRON 0x19F
+#define TxOdtDrvStren_LPDDR4_MICRON 0x600
+#define TxImpedanceCtrl1_LPDDR4_MICRON 0x63F
+#define MR11_LPDDR4_MICRON 0x65
+#define MR14_LPDDR4_MICRON 0x4D
+#define MR22_LPDDR4_MICRON 0x4
+#define MR12_LPDDR4_MICRON MR14_LPDDR4_MICRON
+#define MR3_LPDDR4_MICRON 0xa2
+#endif
+
+#ifdef VR2
+#define ATxSlewRate_LPDDR4_MICRON 0x19F
+#define ATxImpedance_LPDDR4_MICRON 0x3F
+#define TxSlewRate_LPDDR4_MICRON 0x19F
+#define TxOdtDrvStren_LPDDR4_MICRON 0x200
+#define TxImpedanceCtrl1_LPDDR4_MICRON 0x63F
+#define MR11_LPDDR4_MICRON 0x65
+#define MR14_LPDDR4_MICRON 0x4D
+#define MR22_LPDDR4_MICRON 0x4
+#define MR12_LPDDR4_MICRON MR14_LPDDR4_MICRON
+#define MR3_LPDDR4_MICRON 0xa2
+#endif
+
+#ifdef VR3
+#define ATxSlewRate_LPDDR4_MICRON 0x19F
+#define ATxImpedance_LPDDR4_MICRON 0x3D
+#define TxSlewRate_LPDDR4_MICRON 0x19F
+#define TxOdtDrvStren_LPDDR4_MICRON 0xE00
+#define TxImpedanceCtrl1_LPDDR4_MICRON 0x21F
+#define MR11_LPDDR4_MICRON 0x65
+#define MR14_LPDDR4_MICRON 0x1F
+#define MR22_LPDDR4_MICRON 0x6
+#define MR12_LPDDR4_MICRON MR14_LPDDR4_MICRON
+#define MR3_LPDDR4_MICRON 0xa2
+#endif
+
+#ifdef VR4
+#define ATxSlewRate_LPDDR4_MICRON 0x19F
+#define ATxImpedance_LPDDR4_MICRON 0x3D
+#define TxSlewRate_LPDDR4_MICRON 0x19F
+#define TxOdtDrvStren_LPDDR4_MICRON 0x600
+#define TxImpedanceCtrl1_LPDDR4_MICRON 0x21F
+#define MR11_LPDDR4_MICRON 0x65
+#define MR14_LPDDR4_MICRON 0x1F
+#define MR22_LPDDR4_MICRON 0x4
+#define MR12_LPDDR4_MICRON MR14_LPDDR4_MICRON
+#define MR3_LPDDR4_MICRON 0xa2
+#endif
+
+#ifdef VR5
+#define ATxSlewRate_LPDDR4_MICRON 0x19F
+#define ATxImpedance_LPDDR4_MICRON 0x3D
+#define TxSlewRate_LPDDR4_MICRON 0x19F
+#define TxOdtDrvStren_LPDDR4_MICRON 0x200
+#define TxImpedanceCtrl1_LPDDR4_MICRON 0x21F
+#define MR11_LPDDR4_MICRON 0x65
+#define MR14_LPDDR4_MICRON 0x1F
+#define MR22_LPDDR4_MICRON 0x4
+#define MR12_LPDDR4_MICRON MR14_LPDDR4_MICRON
+#define MR3_LPDDR4_MICRON 0xa2
+#endif
+
+#ifdef VH0F_T
+#define ATxSlewRate_LPDDR4_MICRON 0x19F
+#define ATxImpedance_LPDDR4_MICRON 0x3F
+#define TxSlewRate_LPDDR4_MICRON 0x19F
+#define TxOdtDrvStren_LPDDR4_MICRON 0x0
+#define TxImpedanceCtrl1_LPDDR4_MICRON 0x63F
+#define MR11_LPDDR4_MICRON 0x66
+#define MR14_LPDDR4_MICRON 0x4C
+#define MR22_LPDDR4_MICRON 0x0
+#define MR12_LPDDR4_MICRON MR14_LPDDR4_MICRON
+#define MR3_LPDDR4_MICRON 0xB2
+#endif
+
+#ifdef VH0I_T
+#define ATxSlewRate_LPDDR4_MICRON 0x19F
+#define ATxImpedance_LPDDR4_MICRON 0x3D
+#define TxSlewRate_LPDDR4_MICRON 0x19F
+#define TxOdtDrvStren_LPDDR4_MICRON 0x0
+#define TxImpedanceCtrl1_LPDDR4_MICRON 0x61F
+#define MR11_LPDDR4_MICRON 0x66
+#define MR14_LPDDR4_MICRON 0x1B
+#define MR22_LPDDR4_MICRON 0x0
+#define MR12_LPDDR4_MICRON MR14_LPDDR4_MICRON
+#define MR3_LPDDR4_MICRON 0xb2
+#endif
+
+
+#ifdef VR6
+#define ATxSlewRate_LPDDR4_MICRON 0x19F
+#define ATxImpedance_LPDDR4_MICRON 0x3F
+#define TxSlewRate_LPDDR4_MICRON 0x19F
+#define TxOdtDrvStren_LPDDR4_MICRON 0xE00
+#define TxImpedanceCtrl1_LPDDR4_MICRON 0x63F
+#define MR11_LPDDR4_MICRON 0x55
+#define MR14_LPDDR4_MICRON 0x4D
+#define MR22_LPDDR4_MICRON 0x5
+#define MR12_LPDDR4_MICRON MR14_LPDDR4_MICRON
+#define MR3_LPDDR4_MICRON 0xa2
+#endif
+
+#ifdef VR7
+#define ATxSlewRate_LPDDR4_MICRON 0x19F
+#define ATxImpedance_LPDDR4_MICRON 0x3F
+#define TxSlewRate_LPDDR4_MICRON 0x19F
+#define TxOdtDrvStren_LPDDR4_MICRON 0x600
+#define TxImpedanceCtrl1_LPDDR4_MICRON 0x63F
+#define MR11_LPDDR4_MICRON 0x55
+#define MR14_LPDDR4_MICRON 0x4D
+#define MR22_LPDDR4_MICRON 0x5
+#define MR12_LPDDR4_MICRON MR14_LPDDR4_MICRON
+#define MR3_LPDDR4_MICRON 0xa2
+#endif
+
+#ifdef VR8
+#define ATxSlewRate_LPDDR4_MICRON 0x19F
+#define ATxImpedance_LPDDR4_MICRON 0x3F
+#define TxSlewRate_LPDDR4_MICRON 0x19F
+#define TxOdtDrvStren_LPDDR4_MICRON 0x200
+#define TxImpedanceCtrl1_LPDDR4_MICRON 0x63F
+#define MR11_LPDDR4_MICRON 0x55
+#define MR14_LPDDR4_MICRON 0x4D
+#define MR22_LPDDR4_MICRON 0x5
+#define MR12_LPDDR4_MICRON MR14_LPDDR4_MICRON
+#define MR3_LPDDR4_MICRON 0xb2
+#endif
+
+#ifdef VR9
+#define ATxSlewRate_LPDDR4_MICRON 0x19F
+#define ATxImpedance_LPDDR4_MICRON 0x3D
+#define TxSlewRate_LPDDR4_MICRON 0x19F
+#define TxOdtDrvStren_LPDDR4_MICRON 0xE00
+#define TxImpedanceCtrl1_LPDDR4_MICRON 0x21F
+#define MR11_LPDDR4_MICRON 0x55
+#define MR14_LPDDR4_MICRON 0x1F
+#define MR22_LPDDR4_MICRON 0x5
+#define MR12_LPDDR4_MICRON MR14_LPDDR4_MICRON
+#define MR3_LPDDR4_MICRON 0xa2
+#endif
+
+#ifdef VR10
+#define ATxSlewRate_LPDDR4_MICRON 0x19F
+#define ATxImpedance_LPDDR4_MICRON 0x3D
+#define TxSlewRate_LPDDR4_MICRON 0x19F
+#define TxOdtDrvStren_LPDDR4_MICRON 0x600
+#define TxImpedanceCtrl1_LPDDR4_MICRON 0x21F
+#define MR11_LPDDR4_MICRON 0x55
+#define MR14_LPDDR4_MICRON 0x1F
+#define MR22_LPDDR4_MICRON 0x5
+#define MR12_LPDDR4_MICRON MR14_LPDDR4_MICRON
+#define MR3_LPDDR4_MICRON 0xa2
+#endif
+
+#ifdef VR11
+#define ATxSlewRate_LPDDR4_MICRON 0x19F
+#define ATxImpedance_LPDDR4_MICRON 0x3D
+#define TxSlewRate_LPDDR4_MICRON 0x19F
+#define TxOdtDrvStren_LPDDR4_MICRON 0x200
+#define TxImpedanceCtrl1_LPDDR4_MICRON 0x21F
+#define MR11_LPDDR4_MICRON 0x55
+#define MR14_LPDDR4_MICRON 0x1F
+#define MR22_LPDDR4_MICRON 0x5
+#define MR12_LPDDR4_MICRON MR14_LPDDR4_MICRON
+#define MR3_LPDDR4_MICRON 0xb2
+#endif
+
+#ifdef VK0//VH0D_2A
+#define ATxSlewRate_LPDDR4_MICRON 0x19F
+#define ATxImpedance_LPDDR4_MICRON 0x3F
+#define TxSlewRate_LPDDR4_MICRON 0x19F
+#define TxOdtDrvStren_LPDDR4_MICRON 0xE00
+#define TxImpedanceCtrl1_LPDDR4_MICRON 0x63F
+#define MR11_LPDDR4_MICRON 0x66
+#define MR14_LPDDR4_MICRON 0x4C
+#define MR22_LPDDR4_MICRON 0x6
+#define MR12_LPDDR4_MICRON MR14_LPDDR4_MICRON
+#define MR3_LPDDR4_MICRON 0xa3
+#define ddr_test_name_LPDDR4_MICRON		"VK0_VH0D_2A"
+#endif
+
+#ifdef VH0EA
+#define ATxSlewRate_LPDDR4_MICRON 0x19F
+#define ATxImpedance_LPDDR4_MICRON 0x3F
+#define TxSlewRate_LPDDR4_MICRON 0x19F
+#define TxOdtDrvStren_LPDDR4_MICRON 0x600
+#define TxImpedanceCtrl1_LPDDR4_MICRON 0x63F
+#define MR11_LPDDR4_MICRON 0x66
+#define MR14_LPDDR4_MICRON 0x4C
+#define MR22_LPDDR4_MICRON 0x6
+#define MR12_LPDDR4_MICRON MR14_LPDDR4_MICRON
+#define MR3_LPDDR4_MICRON 0xa3
+#endif
+
+#ifdef VK1
+#define ATxSlewRate_LPDDR4_MICRON 0x19F
+#define ATxImpedance_LPDDR4_MICRON 0x7F
+#define TxSlewRate_LPDDR4_MICRON 0x19F
+#define TxOdtDrvStren_LPDDR4_MICRON 0xE00
+#define TxImpedanceCtrl1_LPDDR4_MICRON 0xE3F
+#define MR11_LPDDR4_MICRON 0x66
+#define MR14_LPDDR4_MICRON 0x4C
+#define MR22_LPDDR4_MICRON 0x6
+#define MR12_LPDDR4_MICRON MR14_LPDDR4_MICRON
+#define MR3_LPDDR4_MICRON 0xa3
+#endif
+
+#ifdef VK2
+#define ATxSlewRate_LPDDR4_MICRON 0x19F
+#define ATxImpedance_LPDDR4_MICRON 0x3F
+#define TxSlewRate_LPDDR4_MICRON 0x19F
+#define TxOdtDrvStren_LPDDR4_MICRON 0xE00
+#define TxImpedanceCtrl1_LPDDR4_MICRON 0x63F
+#define MR11_LPDDR4_MICRON 0x66
+#define MR14_LPDDR4_MICRON 0x4C
+#define MR22_LPDDR4_MICRON 0x4
+#define MR12_LPDDR4_MICRON MR14_LPDDR4_MICRON
+#define MR3_LPDDR4_MICRON 0xa3
+#endif
+
+#ifdef VK3
+#define ATxSlewRate_LPDDR4_MICRON 0x19F
+#define ATxImpedance_LPDDR4_MICRON 0x3F
+#define TxSlewRate_LPDDR4_MICRON 0x19F
+#define TxOdtDrvStren_LPDDR4_MICRON 0x200
+#define TxImpedanceCtrl1_LPDDR4_MICRON 0x63F
+#define MR11_LPDDR4_MICRON 0x66
+#define MR14_LPDDR4_MICRON 0x4C
+#define MR22_LPDDR4_MICRON 0x6
+#define MR12_LPDDR4_MICRON MR14_LPDDR4_MICRON
+#define MR3_LPDDR4_MICRON 0xa3
+#endif
+
+#ifdef VK4
+#define ATxSlewRate_LPDDR4_MICRON 0x19F
+#define ATxImpedance_LPDDR4_MICRON 0x3F
+#define TxSlewRate_LPDDR4_MICRON 0x19F
+#define TxOdtDrvStren_LPDDR4_MICRON 0x600
+#define TxImpedanceCtrl1_LPDDR4_MICRON 0x63F
+#define MR11_LPDDR4_MICRON 0x66
+#define MR14_LPDDR4_MICRON 0x4C
+#define MR22_LPDDR4_MICRON 0x6
+#define MR12_LPDDR4_MICRON MR14_LPDDR4_MICRON
+#define MR3_LPDDR4_MICRON 0xa3
+#endif
+
+#ifdef VK5
+#define ATxSlewRate_LPDDR4_MICRON 0x1FF
+#define ATxImpedance_LPDDR4_MICRON 0x3F
+#define TxSlewRate_LPDDR4_MICRON 0x1FF
+#define TxOdtDrvStren_LPDDR4_MICRON 0xE00
+#define TxImpedanceCtrl1_LPDDR4_MICRON 0x63F
+#define MR11_LPDDR4_MICRON 0x66
+#define MR14_LPDDR4_MICRON 0x4C
+#define MR22_LPDDR4_MICRON 0x6
+#define MR12_LPDDR4_MICRON MR14_LPDDR4_MICRON
+#define MR3_LPDDR4_MICRON 0xa3
+#endif
+
+#ifdef VK6
+#define ATxSlewRate_LPDDR4_MICRON 0x15F
+#define ATxImpedance_LPDDR4_MICRON 0x3F
+#define TxSlewRate_LPDDR4_MICRON 0x17F
+#define TxOdtDrvStren_LPDDR4_MICRON 0xE00
+#define TxImpedanceCtrl1_LPDDR4_MICRON 0x63F
+#define MR11_LPDDR4_MICRON 0x66
+#define MR14_LPDDR4_MICRON 0x4C
+#define MR22_LPDDR4_MICRON 0x6
+#define MR12_LPDDR4_MICRON MR14_LPDDR4_MICRON
+#define MR3_LPDDR4_MICRON 0xa3
+#endif
+
+#ifdef VK7
+#define ATxSlewRate_LPDDR4_MICRON 0x19F
+#define ATxImpedance_LPDDR4_MICRON 0x3F
+#define TxSlewRate_LPDDR4_MICRON 0x19F
+#define TxOdtDrvStren_LPDDR4_MICRON 0xE00
+#define TxImpedanceCtrl1_LPDDR4_MICRON 0x63F
+#define MR11_LPDDR4_MICRON 0x66
+#define MR14_LPDDR4_MICRON 0x4C
+#define MR22_LPDDR4_MICRON 0x6
+#define MR12_LPDDR4_MICRON MR14_LPDDR4_MICRON
+#define MR3_LPDDR4_MICRON 0xb3
+#endif
+
+#ifdef VK8
+#define ATxSlewRate_LPDDR4_MICRON 0x19F
+#define ATxImpedance_LPDDR4_MICRON 0x3F
+#define TxSlewRate_LPDDR4_MICRON 0x19F
+#define TxOdtDrvStren_LPDDR4_MICRON 0xE00
+#define TxImpedanceCtrl1_LPDDR4_MICRON 0x63F
+#define MR11_LPDDR4_MICRON 0x66
+#define MR14_LPDDR4_MICRON 0x4C
+#define MR22_LPDDR4_MICRON 0x6
+#define MR12_LPDDR4_MICRON MR14_LPDDR4_MICRON
+#define MR3_LPDDR4_MICRON 0xa2
+#endif
+
+#ifdef VK9
+#define ATxSlewRate_LPDDR4_MICRON 0x19F
+#define ATxImpedance_LPDDR4_MICRON 0x3F
+#define TxSlewRate_LPDDR4_MICRON 0x19F
+#define TxOdtDrvStren_LPDDR4_MICRON 0x600
+#define TxImpedanceCtrl1_LPDDR4_MICRON 0x63F
+#define MR11_LPDDR4_MICRON 0x66
+#define MR14_LPDDR4_MICRON 0x4C
+#define MR22_LPDDR4_MICRON 0x4
+#define MR12_LPDDR4_MICRON MR14_LPDDR4_MICRON
+#define MR3_LPDDR4_MICRON 0xa3
+#endif
+
+#ifdef VK10
+#define ATxSlewRate_LPDDR4_MICRON 0x19F
+#define ATxImpedance_LPDDR4_MICRON 0x3F
+#define TxSlewRate_LPDDR4_MICRON 0x19F
+#define TxOdtDrvStren_LPDDR4_MICRON 0xE00
+#define TxImpedanceCtrl1_LPDDR4_MICRON 0x63F
+#define MR11_LPDDR4_MICRON 0x66
+#define MR14_LPDDR4_MICRON 0x4C
+#define MR22_LPDDR4_MICRON 0x4
+#define MR12_LPDDR4_MICRON MR14_LPDDR4_MICRON
+#define MR3_LPDDR4_MICRON 0xa2
+#endif
+
+#ifdef VQ0//from Qishaui
+#define ATxSlewRate_LPDDR4_MICRON 0x19F
+#define ATxImpedance_LPDDR4_MICRON 0x3F
+#define TxSlewRate_LPDDR4_MICRON 0x19F
+#define TxOdtDrvStren_LPDDR4_MICRON 0xE00
+#define TxImpedanceCtrl1_LPDDR4_MICRON 0xE3F
+#define MR11_LPDDR4_MICRON 0x64
+#define MR14_LPDDR4_MICRON 0x16
+#define MR22_LPDDR4_MICRON 0x6
+#define MR12_LPDDR4_MICRON MR14_LPDDR4_MICRON
+#define MR3_LPDDR4_MICRON 0xa3
+#endif
+
+#ifdef VK11
+#define ATxSlewRate_LPDDR4_MICRON 0x19F
+#define ATxImpedance_LPDDR4_MICRON 0x3F
+#define TxSlewRate_LPDDR4_MICRON 0x19F
+#define TxOdtDrvStren_LPDDR4_MICRON 0xE00
+#define TxImpedanceCtrl1_LPDDR4_MICRON 0x63F
+#define MR11_LPDDR4_MICRON 0x66
+#define MR14_LPDDR4_MICRON 0x4C
+#define MR22_LPDDR4_MICRON 0x6
+#define MR12_LPDDR4_MICRON MR14_LPDDR4_MICRON
+#define MR3_LPDDR4_MICRON 0xab
+#endif
+
+#ifdef VK12
+#define ATxSlewRate_LPDDR4_MICRON 0x19F
+#define ATxImpedance_LPDDR4_MICRON 0x3F
+#define TxSlewRate_LPDDR4_MICRON 0x19F
+#define TxOdtDrvStren_LPDDR4_MICRON 0xE00
+#define TxImpedanceCtrl1_LPDDR4_MICRON 0x63F
+#define MR11_LPDDR4_MICRON 0x66
+#define MR14_LPDDR4_MICRON 0x4C
+#define MR22_LPDDR4_MICRON 0x6
+#define MR12_LPDDR4_MICRON MR14_LPDDR4_MICRON
+#define MR3_LPDDR4_MICRON 0x9b
+#endif
+
+#ifdef VK13
+#define ATxSlewRate_LPDDR4_MICRON 0x19F
+#define ATxImpedance_LPDDR4_MICRON 0x3D
+#define TxSlewRate_LPDDR4_MICRON 0x19F
+#define TxOdtDrvStren_LPDDR4_MICRON 0xE00
+#define TxImpedanceCtrl1_LPDDR4_MICRON 0x61F
+#define MR11_LPDDR4_MICRON 0x66
+#define MR14_LPDDR4_MICRON 0x4C
+#define MR22_LPDDR4_MICRON 0x6
+#define MR12_LPDDR4_MICRON MR14_LPDDR4_MICRON
+#define MR3_LPDDR4_MICRON 0xa3
+#endif
+
+#ifdef VK14
+#define ATxSlewRate_LPDDR4_MICRON 0x19F
+#define ATxImpedance_LPDDR4_MICRON 0x7D
+#define TxSlewRate_LPDDR4_MICRON 0x19F
+#define TxOdtDrvStren_LPDDR4_MICRON 0xE00
+#define TxImpedanceCtrl1_LPDDR4_MICRON 0xE1F
+#define MR11_LPDDR4_MICRON 0x66
+#define MR14_LPDDR4_MICRON 0x4C
+#define MR22_LPDDR4_MICRON 0x6
+#define MR12_LPDDR4_MICRON MR14_LPDDR4_MICRON
+#define MR3_LPDDR4_MICRON 0xa3
+#endif
+
+#ifdef VK0A
+#define ATxSlewRate_LPDDR4_MICRON 0x19F
+#define ATxImpedance_LPDDR4_MICRON 0x3F
+#define TxSlewRate_LPDDR4_MICRON 0x19F
+#define TxOdtDrvStren_LPDDR4_MICRON 0xE00
+#define TxImpedanceCtrl1_LPDDR4_MICRON 0x63F
+#define MR11_LPDDR4_MICRON 0x66
+#define MR14_LPDDR4_MICRON 0x4C
+#define MR22_LPDDR4_MICRON 0x16 // PC ODT-CS=1 3.9.2020
+#define MR12_LPDDR4_MICRON MR14_LPDDR4_MICRON
+#define MR3_LPDDR4_MICRON 0xa3
+#define ddr_test_name_LPDDR4_MICRON		"VK0A"
+#endif
+
+//-----------------------------
+// 3200
+#ifdef M32_A0
+#define ddr_test_name_LPDDR4_MICRON		"M32_A0"
+#define ATxSlewRate_LPDDR4_MICRON 0x19F
+#define ATxImpedance_LPDDR4_MICRON 0x7F
+#define TxSlewRate_LPDDR4_MICRON 0x19F
+#define TxOdtDrvStren_LPDDR4_MICRON 0xE00
+#define TxImpedanceCtrl1_LPDDR4_MICRON 0xE3F
+#define MR11_LPDDR4_MICRON 0x66
+#define MR14_LPDDR4_MICRON 0x4C
+#define MR22_LPDDR4_MICRON 0x16 // PC ODT-CS=1 3.9.2020
+#define MR12_LPDDR4_MICRON MR14_LPDDR4_MICRON
+#define MR3_LPDDR4_MICRON 0xa3
+#endif
+
+#ifdef M32_A1
+#define ddr_test_name_LPDDR4_MICRON		"M32_A1"
+#define ATxSlewRate_LPDDR4_MICRON 0x15F
+#define ATxImpedance_LPDDR4_MICRON 0x7F
+#define TxSlewRate_LPDDR4_MICRON 0x17F
+#define TxOdtDrvStren_LPDDR4_MICRON 0x200
+#define TxImpedanceCtrl1_LPDDR4_MICRON 0xE3F
+#define MR11_LPDDR4_MICRON 0x43
+#define MR14_LPDDR4_MICRON 0x4C
+#define MR22_LPDDR4_MICRON 0x14 // PC ODT-CS=1 3.9.2020
+#define MR12_LPDDR4_MICRON MR14_LPDDR4_MICRON
+#define MR3_LPDDR4_MICRON 0xB3
+#endif
+
+#ifdef M32_A2
+#define ddr_test_name_LPDDR4_MICRON		"M32_A2"
+#define ATxSlewRate_LPDDR4_MICRON 0x15F
+#define ATxImpedance_LPDDR4_MICRON 0x7F
+#define TxSlewRate_LPDDR4_MICRON 0x17F
+#define TxOdtDrvStren_LPDDR4_MICRON 0xE00
+#define TxImpedanceCtrl1_LPDDR4_MICRON 0xE3F
+#define MR11_LPDDR4_MICRON 0x66
+#define MR14_LPDDR4_MICRON 0x4C
+#define MR22_LPDDR4_MICRON 0x16 // PC ODT-CS=1 3.9.2020
+#define MR12_LPDDR4_MICRON MR14_LPDDR4_MICRON
+#define MR3_LPDDR4_MICRON 0xa3
+#endif
+
+#ifdef M32_A3
+#define ddr_test_name_LPDDR4_MICRON		"M32_A3"
+#define ATxSlewRate_LPDDR4_MICRON 0x15F
+#define ATxImpedance_LPDDR4_MICRON 0x7F
+#define TxSlewRate_LPDDR4_MICRON 0x17F
+#define TxOdtDrvStren_LPDDR4_MICRON 0xE00
+#define TxImpedanceCtrl1_LPDDR4_MICRON 0xE3F
+#define MR11_LPDDR4_MICRON 0x64
+#define MR14_LPDDR4_MICRON 0x4C
+#define MR22_LPDDR4_MICRON 0x16 // PC ODT-CS=1 3.9.2020
+#define MR12_LPDDR4_MICRON MR14_LPDDR4_MICRON
+#define MR3_LPDDR4_MICRON 0xa3
+#endif
+
+#ifdef M32_A4
+#define ddr_test_name_LPDDR4_MICRON		"M32_A4"
+#define ATxSlewRate_LPDDR4_MICRON 0x15F
+#define ATxImpedance_LPDDR4_MICRON 0x7F
+#define TxSlewRate_LPDDR4_MICRON 0x17F
+#define TxOdtDrvStren_LPDDR4_MICRON 0x600
+#define TxImpedanceCtrl1_LPDDR4_MICRON 0xE3F
+#define MR11_LPDDR4_MICRON 0x64
+#define MR14_LPDDR4_MICRON 0x4C
+#define MR22_LPDDR4_MICRON 0x16 // PC ODT-CS=1 3.9.2020
+#define MR12_LPDDR4_MICRON MR14_LPDDR4_MICRON
+#define MR3_LPDDR4_MICRON 0xa3
+#endif
+
+#ifdef M32_A5
+#define ddr_test_name_LPDDR4_MICRON		"M32_A5"
+#define ATxSlewRate_LPDDR4_MICRON 0x15F
+#define ATxImpedance_LPDDR4_MICRON 0x7F
+#define TxSlewRate_LPDDR4_MICRON 0x17F
+#define TxOdtDrvStren_LPDDR4_MICRON 0x600
+#define TxImpedanceCtrl1_LPDDR4_MICRON 0xE3F
+#define MR11_LPDDR4_MICRON 0x64
+#define MR14_LPDDR4_MICRON 0x4C
+#define MR22_LPDDR4_MICRON 0x16 // PC ODT-CS=1 3.9.2020
+#define MR12_LPDDR4_MICRON MR14_LPDDR4_MICRON
+#define MR3_LPDDR4_MICRON 0xB3
+#endif
+
+#ifdef M32_A6
+#define ddr_test_name_LPDDR4_MICRON		"M32_A6"
+#define ATxSlewRate_LPDDR4_MICRON 0x15F
+#define ATxImpedance_LPDDR4_MICRON 0x7F
+#define TxSlewRate_LPDDR4_MICRON 0x17F
+#define TxOdtDrvStren_LPDDR4_MICRON 0xE00
+#define TxImpedanceCtrl1_LPDDR4_MICRON 0xE3F
+#define MR11_LPDDR4_MICRON 0x66
+#define MR14_LPDDR4_MICRON 0x4C
+#define MR22_LPDDR4_MICRON 0x16 // PC ODT-CS=1 3.9.2020
+#define MR12_LPDDR4_MICRON MR14_LPDDR4_MICRON
+#define MR3_LPDDR4_MICRON 0xa3
+#endif
+
+#ifdef M32_A7
+#define ddr_test_name_LPDDR4_MICRON		"M32_A7"
+#define ATxSlewRate_LPDDR4_MICRON 0x15F
+#define ATxImpedance_LPDDR4_MICRON 0x7F
+#define TxSlewRate_LPDDR4_MICRON 0x17F
+#define TxOdtDrvStren_LPDDR4_MICRON 0xE00
+#define TxImpedanceCtrl1_LPDDR4_MICRON 0xE3F
+#define MR11_LPDDR4_MICRON 0x66
+#define MR14_LPDDR4_MICRON 0x4C
+#define MR22_LPDDR4_MICRON 0x16 // PC ODT-CS=1 3.9.2020
+#define MR12_LPDDR4_MICRON MR14_LPDDR4_MICRON
+#define MR3_LPDDR4_MICRON 0xB3
+#endif
+
+//-----------------------------
+// 3733
+#ifdef M37_A1
+#define ddr_test_name_LPDDR4_MICRON		"M37_A1"
+#define ATxSlewRate_LPDDR4_MICRON 0x15F
+#define ATxImpedance_LPDDR4_MICRON 0x7F
+#define TxSlewRate_LPDDR4_MICRON 0x17F
+#define TxOdtDrvStren_LPDDR4_MICRON 0x200
+#define TxImpedanceCtrl1_LPDDR4_MICRON 0xE3F
+#define MR11_LPDDR4_MICRON 0x43
+#define MR14_LPDDR4_MICRON 0x4C
+#define MR22_LPDDR4_MICRON 0x14 // PC ODT-CS=1 3.9.2020
+#define MR12_LPDDR4_MICRON MR14_LPDDR4_MICRON
+#define MR3_LPDDR4_MICRON 0xB3
+#endif
+
+#ifdef M37_A5
+#define ddr_test_name_LPDDR4_MICRON		"M37_A5"
+#define ATxSlewRate_LPDDR4_MICRON 0x15F
+#define ATxImpedance_LPDDR4_MICRON 0x7F
+#define TxSlewRate_LPDDR4_MICRON 0x17F
+#define TxOdtDrvStren_LPDDR4_MICRON 0x600
+#define TxImpedanceCtrl1_LPDDR4_MICRON 0xE3F
+#define MR11_LPDDR4_MICRON 0x64
+#define MR14_LPDDR4_MICRON 0x4C
+#define MR22_LPDDR4_MICRON 0x16 // PC ODT-CS=1 3.9.2020
+#define MR12_LPDDR4_MICRON MR14_LPDDR4_MICRON
+#define MR3_LPDDR4_MICRON 0xB3
+#endif
+
+#ifdef M37_A6
+#define ddr_test_name_LPDDR4_MICRON		"M37_A6"
+#define ATxSlewRate_LPDDR4_MICRON 0x15F
+#define ATxImpedance_LPDDR4_MICRON 0x7F
+#define TxSlewRate_LPDDR4_MICRON 0x17F
+#define TxOdtDrvStren_LPDDR4_MICRON 0xE00
+#define TxImpedanceCtrl1_LPDDR4_MICRON 0xE3F
+#define MR11_LPDDR4_MICRON 0x66
+#define MR14_LPDDR4_MICRON 0x4C
+#define MR22_LPDDR4_MICRON 0x16 // PC ODT-CS=1 3.9.2020
+#define MR12_LPDDR4_MICRON MR14_LPDDR4_MICRON
+#define MR3_LPDDR4_MICRON 0xa3
+#endif
+
+#ifdef M37_A7
+#define ddr_test_name_LPDDR4_MICRON		"M37_A7"
+#define ATxSlewRate_LPDDR4_MICRON 0x15F
+#define ATxImpedance_LPDDR4_MICRON 0x7F
+#define TxSlewRate_LPDDR4_MICRON 0x17F
+#define TxOdtDrvStren_LPDDR4_MICRON 0xE00
+#define TxImpedanceCtrl1_LPDDR4_MICRON 0xE3F
+#define MR11_LPDDR4_MICRON 0x66
+#define MR14_LPDDR4_MICRON 0x4C
+#define MR22_LPDDR4_MICRON 0x16 // PC ODT-CS=1 3.9.2020
+#define MR12_LPDDR4_MICRON MR14_LPDDR4_MICRON
+#define MR3_LPDDR4_MICRON 0xB3
+#endif
+
+//-----------------------------
+// 2667
+#ifdef M26_A1
+#define ddr_test_name_LPDDR4_MICRON		"M26_A1"
+#define ATxSlewRate_LPDDR4_MICRON 0x15F
+#define ATxImpedance_LPDDR4_MICRON 0x7F
+#define TxSlewRate_LPDDR4_MICRON 0x17F
+#define TxOdtDrvStren_LPDDR4_MICRON 0x200
+#define TxImpedanceCtrl1_LPDDR4_MICRON 0xE3F
+#define MR11_LPDDR4_MICRON 0x43
+#define MR14_LPDDR4_MICRON 0x4C
+#define MR22_LPDDR4_MICRON 0x14 // PC ODT-CS=1 3.9.2020
+#define MR12_LPDDR4_MICRON MR14_LPDDR4_MICRON
+#define MR3_LPDDR4_MICRON 0xB3
+#endif
+
+#ifdef M26_A5
+#define ddr_test_name_LPDDR4_MICRON		"M26_A5"
+#define ATxSlewRate_LPDDR4_MICRON 0x15F
+#define ATxImpedance_LPDDR4_MICRON 0x7F
+#define TxSlewRate_LPDDR4_MICRON 0x17F
+#define TxOdtDrvStren_LPDDR4_MICRON 0x600
+#define TxImpedanceCtrl1_LPDDR4_MICRON 0xE3F
+#define MR11_LPDDR4_MICRON 0x64
+#define MR14_LPDDR4_MICRON 0x4C
+#define MR22_LPDDR4_MICRON 0x16 // PC ODT-CS=1 3.9.2020
+#define MR12_LPDDR4_MICRON MR14_LPDDR4_MICRON
+#define MR3_LPDDR4_MICRON 0xB3
+#endif
+
+#ifdef M26_A6
+#define ddr_test_name_LPDDR4_MICRON		"M26_A6"
+#define ATxSlewRate_LPDDR4_MICRON 0x15F
+#define ATxImpedance_LPDDR4_MICRON 0x7F
+#define TxSlewRate_LPDDR4_MICRON 0x17F
+#define TxOdtDrvStren_LPDDR4_MICRON 0xE00
+#define TxImpedanceCtrl1_LPDDR4_MICRON 0xE3F
+#define MR11_LPDDR4_MICRON 0x66
+#define MR14_LPDDR4_MICRON 0x4C
+#define MR22_LPDDR4_MICRON 0x16 // PC ODT-CS=1 3.9.2020
+#define MR12_LPDDR4_MICRON MR14_LPDDR4_MICRON
+#define MR3_LPDDR4_MICRON 0xa3
+#endif
+
+#ifdef M26_A7
+#define ddr_test_name_LPDDR4_MICRON		"M26_A7"
+#define ATxSlewRate_LPDDR4_MICRON 0x15F
+#define ATxImpedance_LPDDR4_MICRON 0x7F
+#define TxSlewRate_LPDDR4_MICRON 0x17F
+#define TxOdtDrvStren_LPDDR4_MICRON 0xE00
+#define TxImpedanceCtrl1_LPDDR4_MICRON 0xE3F
+#define MR11_LPDDR4_MICRON 0x66
+#define MR14_LPDDR4_MICRON 0x4C
+#define MR22_LPDDR4_MICRON 0x16 // PC ODT-CS=1 3.9.2020
+#define MR12_LPDDR4_MICRON MR14_LPDDR4_MICRON
+#define MR3_LPDDR4_MICRON 0xB3
+#endif
+
+#ifdef M26_A8
+#define ddr_test_name_LPDDR4_MICRON		"M26_A8"
+#define ATxSlewRate_LPDDR4_MICRON 0x15F
+#define ATxImpedance_LPDDR4_MICRON 0x7F
+#define TxSlewRate_LPDDR4_MICRON 0x17F
+#define TxOdtDrvStren_LPDDR4_MICRON 0x600
+#define TxImpedanceCtrl1_LPDDR4_MICRON 0xE3F
+#define MR11_LPDDR4_MICRON 0x66
+#define MR14_LPDDR4_MICRON 0x4C
+#define MR22_LPDDR4_MICRON 0x16 // PC ODT-CS=1 3.9.2020
+#define MR12_LPDDR4_MICRON MR14_LPDDR4_MICRON
+#define MR3_LPDDR4_MICRON 0xB3
+#endif
+
+
+#ifdef M26_A9
+#define ddr_test_name_LPDDR4_MICRON		"M26_A9"
+#define ATxSlewRate_LPDDR4_MICRON 0x15F
+#define ATxImpedance_LPDDR4_MICRON 0x7F
+#define TxSlewRate_LPDDR4_MICRON 0x17F
+#define TxOdtDrvStren_LPDDR4_MICRON 0xE00
+#define TxImpedanceCtrl1_LPDDR4_MICRON 0xE3F
+#define MR11_LPDDR4_MICRON 0x66
+#define MR14_LPDDR4_MICRON 0x4C
+#define MR22_LPDDR4_MICRON 0x14 // PC ODT-CS=1 3.9.2020
+#define MR12_LPDDR4_MICRON MR14_LPDDR4_MICRON
+#define MR3_LPDDR4_MICRON 0xB3
+#endif
+
+#ifdef M26_A10
+#define ddr_test_name_LPDDR4_MICRON		"M26_A10"
+#define ATxSlewRate_LPDDR4_MICRON 0x15F
+#define ATxImpedance_LPDDR4_MICRON 0x7F
+#define TxSlewRate_LPDDR4_MICRON 0x17F
+#define TxOdtDrvStren_LPDDR4_MICRON 0x600
+#define TxImpedanceCtrl1_LPDDR4_MICRON 0xE3F
+#define MR11_LPDDR4_MICRON 0x66
+#define MR14_LPDDR4_MICRON 0x4C
+#define MR22_LPDDR4_MICRON 0x14 // PC ODT-CS=1 3.9.2020
+#define MR12_LPDDR4_MICRON MR14_LPDDR4_MICRON
+#define MR3_LPDDR4_MICRON 0xB3
+#endif
+
+#ifdef M26_A11
+#define ddr_test_name_LPDDR4_MICRON		"M26_A11"
+#define ATxSlewRate_LPDDR4_MICRON 0x15F
+#define ATxImpedance_LPDDR4_MICRON 0x7F
+#define TxSlewRate_LPDDR4_MICRON 0x19F
+#define TxOdtDrvStren_LPDDR4_MICRON 0xE00
+#define TxImpedanceCtrl1_LPDDR4_MICRON 0xE3F
+#define MR11_LPDDR4_MICRON 0x66
+#define MR14_LPDDR4_MICRON 0x4C
+#define MR22_LPDDR4_MICRON 0x16 // PC ODT-CS=1 3.9.2020
+#define MR12_LPDDR4_MICRON MR14_LPDDR4_MICRON
+#define MR3_LPDDR4_MICRON 0xB3
+#endif
+
+
+//-----------------------------
+// 4266
+#ifdef M42_A1
+#define ddr_test_name_LPDDR4_MICRON		"M42_A1"
+#define ATxSlewRate_LPDDR4_MICRON 0x15F
+#define ATxImpedance_LPDDR4_MICRON 0x7F
+#define TxSlewRate_LPDDR4_MICRON 0x17F
+#define TxOdtDrvStren_LPDDR4_MICRON 0x200
+#define TxImpedanceCtrl1_LPDDR4_MICRON 0xE3F
+#define MR11_LPDDR4_MICRON 0x43
+#define MR14_LPDDR4_MICRON 0x4C
+#define MR22_LPDDR4_MICRON 0x14 // PC ODT-CS=1 3.9.2020
+#define MR12_LPDDR4_MICRON MR14_LPDDR4_MICRON
+#define MR3_LPDDR4_MICRON 0xB3
+#endif
+
+#ifdef M42_A5
+#define ddr_test_name_LPDDR4_MICRON		"M42_A5"
+#define ATxSlewRate_LPDDR4_MICRON 0x15F
+#define ATxImpedance_LPDDR4_MICRON 0x7F
+#define TxSlewRate_LPDDR4_MICRON 0x17F
+#define TxOdtDrvStren_LPDDR4_MICRON 0x600
+#define TxImpedanceCtrl1_LPDDR4_MICRON 0xE3F
+#define MR11_LPDDR4_MICRON 0x64
+#define MR14_LPDDR4_MICRON 0x4C
+#define MR22_LPDDR4_MICRON 0x16 // PC ODT-CS=1 3.9.2020
+#define MR12_LPDDR4_MICRON MR14_LPDDR4_MICRON
+#define MR3_LPDDR4_MICRON 0xB3
+#endif
+
+#ifdef M42_A6
+#define ddr_test_name_LPDDR4_MICRON		"M42_A6"
+#define ATxSlewRate_LPDDR4_MICRON 0x15F
+#define ATxImpedance_LPDDR4_MICRON 0x7F
+#define TxSlewRate_LPDDR4_MICRON 0x17F
+#define TxOdtDrvStren_LPDDR4_MICRON 0xE00
+#define TxImpedanceCtrl1_LPDDR4_MICRON 0xE3F
+#define MR11_LPDDR4_MICRON 0x66
+#define MR14_LPDDR4_MICRON 0x4C
+#define MR22_LPDDR4_MICRON 0x16 // PC ODT-CS=1 3.9.2020
+#define MR12_LPDDR4_MICRON MR14_LPDDR4_MICRON
+#define MR3_LPDDR4_MICRON 0xa3
+#endif
+
+#ifdef M42_A7
+#define ddr_test_name_LPDDR4_MICRON		"M42_A7"
+#define ATxSlewRate_LPDDR4_MICRON 0x15F
+#define ATxImpedance_LPDDR4_MICRON 0x7F
+#define TxSlewRate_LPDDR4_MICRON 0x17F
+#define TxOdtDrvStren_LPDDR4_MICRON 0xE00
+#define TxImpedanceCtrl1_LPDDR4_MICRON 0xE3F
+#define MR11_LPDDR4_MICRON 0x66
+#define MR14_LPDDR4_MICRON 0x4C
+#define MR22_LPDDR4_MICRON 0x16 // PC ODT-CS=1 3.9.2020
+#define MR12_LPDDR4_MICRON MR14_LPDDR4_MICRON
+#define MR3_LPDDR4_MICRON 0xB3
+#endif
+
+#ifdef M42_A8
+#define ddr_test_name_LPDDR4_MICRON		"M42_A8"
+#define ATxSlewRate_LPDDR4_MICRON 0x17F
+#define ATxImpedance_LPDDR4_MICRON 0x7F
+#define TxSlewRate_LPDDR4_MICRON 0x19F
+#define TxOdtDrvStren_LPDDR4_MICRON 0xE00
+#define TxImpedanceCtrl1_LPDDR4_MICRON 0xE3F
+#define MR11_LPDDR4_MICRON 0x66
+#define MR14_LPDDR4_MICRON 0x4C
+#define MR22_LPDDR4_MICRON 0x16 // PC ODT-CS=1 3.9.2020
+#define MR12_LPDDR4_MICRON MR14_LPDDR4_MICRON
+#define MR3_LPDDR4_MICRON 0xa3
+#endif
+
+#ifdef M42_A9
+#define ddr_test_name_LPDDR4_MICRON		"M42_A9"
+#define ATxSlewRate_LPDDR4_MICRON 0x15F
+#define ATxImpedance_LPDDR4_MICRON 0x7F
+#define TxSlewRate_LPDDR4_MICRON 0x17F
+#define TxOdtDrvStren_LPDDR4_MICRON 0xE00
+#define TxImpedanceCtrl1_LPDDR4_MICRON 0x63F
+#define MR11_LPDDR4_MICRON 0x66
+#define MR14_LPDDR4_MICRON 0x4C
+#define MR22_LPDDR4_MICRON 0x16 // PC ODT-CS=1 3.9.2020
+#define MR12_LPDDR4_MICRON MR14_LPDDR4_MICRON
+#define MR3_LPDDR4_MICRON 0xa3
+#endif
+
+//-------------------------------------------------------------------------------------------
+// LPDDR4X
+// Micron LPDDR4X-2666
+#ifdef LP4X_M26_A1
+#define ddr_test_name_LPDDR4_MICRON		"LP4X_M26_A1"
+#define ATxSlewRate_LPDDR4_MICRON 0x19F
+#define ATxImpedance_LPDDR4_MICRON 0x7F
+#define TxSlewRate_LPDDR4_MICRON 0x15F
+#define TxOdtDrvStren_LPDDR4_MICRON 0xE00
+#define TxImpedanceCtrl1_LPDDR4_MICRON 0xE3F
+#define MR11_LPDDR4_MICRON 0x43
+#define MR14_LPDDR4_MICRON 0x1F
+#define MR22_LPDDR4_MICRON 0x16 // PC ODT-CS=1 3.9.2020
+#define MR12_LPDDR4_MICRON 0x1A
+#define MR3_LPDDR4_MICRON 0xB3
+#endif
+
+#ifdef LP4X_M26_A2
+#define ddr_test_name_LPDDR4_MICRON		"LP4X_M26_A2"
+#define ATxSlewRate_LPDDR4_MICRON 0x19F
+#define ATxImpedance_LPDDR4_MICRON 0x7F
+#define TxSlewRate_LPDDR4_MICRON 0x15F
+#define TxOdtDrvStren_LPDDR4_MICRON 0xE00
+#define TxImpedanceCtrl1_LPDDR4_MICRON 0xE3F
+#define MR11_LPDDR4_MICRON 0x43
+#define MR14_LPDDR4_MICRON 0x1F
+#define MR22_LPDDR4_MICRON 0x16 // PC ODT-CS=1 3.9.2020
+#define MR12_LPDDR4_MICRON 0x1A
+#define MR3_LPDDR4_MICRON 0xB3
+#define sDelay_Weight2D_LPDDR4_MICRON 0x80
+#define sVoltage_Weight2D_LPDDR4_MICRON 0x20
+#endif
+
+#ifdef LP4X_M26_A3
+#define ddr_test_name_LPDDR4_MICRON		"LP4X_M26_A3"
+#define ATxSlewRate_LPDDR4_MICRON 0x19F
+#define ATxImpedance_LPDDR4_MICRON 0x7F
+#define TxSlewRate_LPDDR4_MICRON 0x15F
+#define TxOdtDrvStren_LPDDR4_MICRON 0xE00
+#define TxImpedanceCtrl1_LPDDR4_MICRON 0xE3F
+#define MR11_LPDDR4_MICRON 0x43
+#define MR14_LPDDR4_MICRON 0x1F
+#define MR22_LPDDR4_MICRON 0x16 // PC ODT-CS=1 3.9.2020
+#define MR12_LPDDR4_MICRON 0x1A
+#define MR3_LPDDR4_MICRON 0xB3
+#define sDelay_Weight2D_LPDDR4_MICRON 0x7F
+#define sVoltage_Weight2D_LPDDR4_MICRON 0x1F
+#endif
+
+#ifdef LP4X_M26_A4
+#define ddr_test_name_LPDDR4_MICRON		"LP4X_M26_A4"
+#define ATxSlewRate_LPDDR4_MICRON 0x19F
+#define ATxImpedance_LPDDR4_MICRON 0x7F
+#define TxSlewRate_LPDDR4_MICRON 0x15F
+#define TxOdtDrvStren_LPDDR4_MICRON 0xE00
+#define TxImpedanceCtrl1_LPDDR4_MICRON 0xE3F
+#define MR11_LPDDR4_MICRON 0x43
+#define MR14_LPDDR4_MICRON 0x1F
+#define MR22_LPDDR4_MICRON 0x16 // PC ODT-CS=1 3.9.2020
+#define MR12_LPDDR4_MICRON 0x1A
+#define MR3_LPDDR4_MICRON 0xB3
+#define sDelay_Weight2D_LPDDR4_MICRON 0x80
+#define sVoltage_Weight2D_LPDDR4_MICRON 0x10
+#endif
+
+
+//--------------------------------
+// Micron LPDDR4X-3200
+#ifdef LP4X_M32_A1
+#define ddr_test_name_LPDDR4_MICRON		"LP4X_M32_A1"
+#define ATxSlewRate_LPDDR4_MICRON 0x19F
+#define ATxImpedance_LPDDR4_MICRON 0x7F
+#define TxSlewRate_LPDDR4_MICRON 0x15F
+#define TxOdtDrvStren_LPDDR4_MICRON 0xE00
+#define TxImpedanceCtrl1_LPDDR4_MICRON 0xE3F
+#define MR11_LPDDR4_MICRON 0x43
+#define MR14_LPDDR4_MICRON 0x1F
+#define MR22_LPDDR4_MICRON 0x16
+#define MR12_LPDDR4_MICRON 0x1A
+#define MR3_LPDDR4_MICRON 0xB3
+#endif
+
+#ifdef LP4X_M32_A2
+#define ddr_test_name_LPDDR4_MICRON		"LP4X_M32_A2"
+#define ATxSlewRate_LPDDR4_MICRON 0x19F
+#define ATxImpedance_LPDDR4_MICRON 0x7F
+#define TxSlewRate_LPDDR4_MICRON 0x15F
+#define TxOdtDrvStren_LPDDR4_MICRON 0xE00
+#define TxImpedanceCtrl1_LPDDR4_MICRON 0xE3F
+#define MR11_LPDDR4_MICRON 0x43
+#define MR14_LPDDR4_MICRON 0x1F
+#define MR22_LPDDR4_MICRON 0x16 // PC ODT-CS=1 3.9.2020
+#define MR12_LPDDR4_MICRON 0x1A
+#define MR3_LPDDR4_MICRON 0xB3
+#define sDelay_Weight2D_LPDDR4_MICRON 0x80
+#define sVoltage_Weight2D_LPDDR4_MICRON 0x20
+#endif
+
+#ifdef LP4X_M32_A3
+#define ddr_test_name_LPDDR4_MICRON		"LP4X_M32_A3"
+#define ATxSlewRate_LPDDR4_MICRON 0x19F
+#define ATxImpedance_LPDDR4_MICRON 0x7F
+#define TxSlewRate_LPDDR4_MICRON 0x15F
+#define TxOdtDrvStren_LPDDR4_MICRON 0xE00
+#define TxImpedanceCtrl1_LPDDR4_MICRON 0xE3F
+#define MR11_LPDDR4_MICRON 0x43
+#define MR14_LPDDR4_MICRON 0x1F
+#define MR22_LPDDR4_MICRON 0x16 // PC ODT-CS=1 3.9.2020
+#define MR12_LPDDR4_MICRON 0x1A
+#define MR3_LPDDR4_MICRON 0xB3
+#define sDelay_Weight2D_LPDDR4_MICRON 0x7F
+#define sVoltage_Weight2D_LPDDR4_MICRON 0x1F
+#endif
+
+#ifdef LP4X_M32_A4
+#define ddr_test_name_LPDDR4_MICRON		"LP4X_M32_A4"
+#define ATxSlewRate_LPDDR4_MICRON 0x19F
+#define ATxImpedance_LPDDR4_MICRON 0x7F
+#define TxSlewRate_LPDDR4_MICRON 0x15F
+#define TxOdtDrvStren_LPDDR4_MICRON 0xE00
+#define TxImpedanceCtrl1_LPDDR4_MICRON 0xE3F
+#define MR11_LPDDR4_MICRON 0x43
+#define MR14_LPDDR4_MICRON 0x1F
+#define MR22_LPDDR4_MICRON 0x16 // PC ODT-CS=1 3.9.2020
+#define MR12_LPDDR4_MICRON 0x1A
+#define MR3_LPDDR4_MICRON 0xB3
+#define sDelay_Weight2D_LPDDR4_MICRON 0x80
+#define sVoltage_Weight2D_LPDDR4_MICRON 0x10
+#endif
+
+//--------------------------------
+// Micron LPDDR4X-3733
+#ifdef LP4X_M37_A1
+#define ddr_test_name_LPDDR4_MICRON		"LP4X_M37_A1"
+#define ATxSlewRate_LPDDR4_MICRON 0x19F
+#define ATxImpedance_LPDDR4_MICRON 0x7F
+#define TxSlewRate_LPDDR4_MICRON 0x15F
+#define TxOdtDrvStren_LPDDR4_MICRON 0xE00
+#define TxImpedanceCtrl1_LPDDR4_MICRON 0xE3F
+#define MR11_LPDDR4_MICRON 0x43
+#define MR14_LPDDR4_MICRON 0x1F
+#define MR22_LPDDR4_MICRON 0x16
+#define MR12_LPDDR4_MICRON 0x1A
+#define MR3_LPDDR4_MICRON 0xB3
+#endif
+
+#ifdef LP4X_M37_A2
+#define ddr_test_name_LPDDR4_MICRON		"LP4X_M37_A2"
+#define ATxSlewRate_LPDDR4_MICRON 0x19F
+#define ATxImpedance_LPDDR4_MICRON 0x7F
+#define TxSlewRate_LPDDR4_MICRON 0x15F
+#define TxOdtDrvStren_LPDDR4_MICRON 0xE00
+#define TxImpedanceCtrl1_LPDDR4_MICRON 0xE3F
+#define MR11_LPDDR4_MICRON 0x66
+#define MR14_LPDDR4_MICRON 0x11
+#define MR22_LPDDR4_MICRON 0x16
+#define MR12_LPDDR4_MICRON 0x11
+#define MR3_LPDDR4_MICRON 0xB3
+#endif
+
+#ifdef LP4X_M37_A3
+#define ddr_test_name_LPDDR4_MICRON		"LP4X_M37_A3"
+#define ATxSlewRate_LPDDR4_MICRON 0x19F
+#define ATxImpedance_LPDDR4_MICRON 0x7F
+#define TxSlewRate_LPDDR4_MICRON 0x15F
+#define TxOdtDrvStren_LPDDR4_MICRON 0xE00
+#define TxImpedanceCtrl1_LPDDR4_MICRON 0xE3F
+#define MR11_LPDDR4_MICRON 0x64
+#define MR14_LPDDR4_MICRON 0x1A
+#define MR22_LPDDR4_MICRON 0x16
+#define MR12_LPDDR4_MICRON 0x11
+#define MR3_LPDDR4_MICRON 0xB3
+#endif
+
+//-------------------------------------------------------------------------------------------
+// LPDDR4-16Gb
+// Micron LPDDR4-3200
+
+
+
+#ifdef ENABLE_DDR_CUSTOMER_SETTINGS
+//Add LPDDR4 impedance related setting customization here
+#define ATxSlewRate_LPDDR4_MICRON 0x19F
+#define ATxImpedance_LPDDR4_MICRON 0x3F
+#define TxSlewRate_LPDDR4_MICRON 0x19F
+#define TxOdtDrvStren_LPDDR4_MICRON 0xE00
+#define TxImpedanceCtrl1_LPDDR4_MICRON 0x63F
+#define MR11_LPDDR4_MICRON 0x66
+#define MR14_LPDDR4_MICRON 0x4C
+#define MR22_LPDDR4_MICRON 0x16 // PC ODT-CS=1 3.9.2020
+#define MR12_LPDDR4_MICRON MR14_LPDDR4_MICRON
+#define MR3_LPDDR4_MICRON 0xa3
+#define ddr_test_name_LPDDR4_MICRON		"CUSTOMER1"
+#else
+#ifdef DEFAULT_DDR_SETTING
+#define ATxSlewRate_LPDDR4_MICRON 0x19F
+#define ATxImpedance_LPDDR4_MICRON 0x3F
+#define TxSlewRate_LPDDR4_MICRON 0x19F
+#define TxOdtDrvStren_LPDDR4_MICRON 0xE00
+#define TxImpedanceCtrl1_LPDDR4_MICRON 0x63F
+#define MR11_LPDDR4_MICRON 0x66
+#define MR14_LPDDR4_MICRON 0x4C
+#define MR22_LPDDR4_MICRON 0x16 // PC ODT-CS=1 3.9.2020
+#define MR12_LPDDR4_MICRON MR14_LPDDR4_MICRON
+#define MR3_LPDDR4_MICRON 0xa3
+#define ddr_test_name_LPDDR4_MICRON		"VK0A(default)"
+#endif
+#endif
+
+
+//New test case add above...
+#ifndef ddr_test_name_LPDDR4_MICRON
+#define ddr_test_name_LPDDR4_MICRON 		"Micron_lpddr4_default_setting"
+#endif
+
+#ifndef TxSlewRate_LPDDR4_MICRON
+#define TxSlewRate_LPDDR4_MICRON 			0x19F
+#endif
+
+#ifndef TxOdtDrvStren_LPDDR4_MICRON
+#define TxOdtDrvStren_LPDDR4_MICRON 		0xE00
+#endif
+
+#ifndef TxImpedanceCtrl1_LPDDR4_MICRON
+#define TxImpedanceCtrl1_LPDDR4_MICRON 	0x63F
+#endif
+
+#ifndef CalDrvStr0_LPDDR4_MICRON
+#define CalDrvStr0_LPDDR4_MICRON 0x11
+#endif
+
+#ifndef sReserved00_LPDDR4_MICRON
+#define sReserved00_LPDDR4_MICRON 0x40
+#endif
+
+#ifndef sReserved0E_LPDDR4_MICRON
+#define sReserved0E_LPDDR4_MICRON 0x04
+#endif
+
+#ifndef sVoltage_Weight2D_LPDDR4_MICRON
+#define sVoltage_Weight2D_LPDDR4_MICRON 0x80
+#endif
+
+#ifndef sDelay_Weight2D_LPDDR4_MICRON
+#define sDelay_Weight2D_LPDDR4_MICRON 0x20
+#endif
+
+#ifndef MR11_LPDDR4_MICRON
+#define MR11_LPDDR4_MICRON 				0x66
+#endif
+
+#ifndef MR14_LPDDR4_MICRON
+#define MR14_LPDDR4_MICRON 				0x4C
+#endif
+
+#ifndef MR22_LPDDR4_MICRON
+#define MR22_LPDDR4_MICRON 				0x16
+#endif
+
+#ifndef MR12_LPDDR4_MICRON
+#define MR12_LPDDR4_MICRON MR14_LPDDR4_MICRON
+#endif
+
+#ifndef MR3_LPDDR4_MICRON
+#define MR3_LPDDR4_MICRON 0xa3
+#endif
+
+#ifndef ATxImpedance_LPDDR4_MICRON
+#define ATxImpedance_LPDDR4_MICRON 0x3F
+#endif
+
+#ifndef ATxSlewRate_LPDDR4_MICRON
+#define ATxSlewRate_LPDDR4_MICRON 0x19F
+#endif
+
+#define DRAMTMG2_LPDDR4_MICRON 0x9121519
+#define RFSHTMG_LPDDR4_MICRON 0x82080096
+#define RFSHTMG1_LPDDR4_MICRON 0x600000
+
+
+// LPDDR4-8Gb-1Rank, Enable LPDDR4 WDQS Feature
+// Micron LPDDR4-3200
+#ifdef L4M8GR1_M32_A17R_WDQS
+#define ddr_test_name_LPDDR4_MICRON		"L4M8GR1_M32_A17R_WDQS"
+#define ATxSlewRate_LPDDR4_MICRON 0x15F
+#define ATxImpedance_LPDDR4_MICRON 0x7F
+#define TxSlewRate_LPDDR4_MICRON 0x19F
+#define TxOdtDrvStren_LPDDR4_MICRON 0x600
+#define TxImpedanceCtrl1_LPDDR4_MICRON 0xE3F
+#define MR11_LPDDR4_MICRON 0x54
+#define MR14_LPDDR4_MICRON 0x54
+#define MR22_LPDDR4_MICRON 0x14 // PC ODT-CS=1 3.9.2020
+#define MR12_LPDDR4_MICRON 0x51
+#define MR3_LPDDR4_MICRON  0xB3
+#define M_LP4_8GbR1_32_A0R //Controller Setting
+#define WDQS_EN
+#endif
+//for multi-file
+#define ATxSlewRate_LPDDR4_MICRON_L4M8GR1_M32_A17R_WDQS 0x15F
+#define ATxImpedance_LPDDR4_MICRON_L4M8GR1_M32_A17R_WDQS 0x7F
+#define TxSlewRate_LPDDR4_MICRON_L4M8GR1_M32_A17R_WDQS 0x19F
+#define TxOdtDrvStren_LPDDR4_MICRON_L4M8GR1_M32_A17R_WDQS 0x600
+#define TxImpedanceCtrl1_LPDDR4_MICRON_L4M8GR1_M32_A17R_WDQS 0xE3F
+#define MR11_LPDDR4_MICRON_L4M8GR1_M32_A17R_WDQS 0x54
+#define MR14_LPDDR4_MICRON_L4M8GR1_M32_A17R_WDQS 0x54
+#define MR22_LPDDR4_MICRON_L4M8GR1_M32_A17R_WDQS 0x14 // PC ODT-CS=1 3.9.2020
+#define MR12_LPDDR4_MICRON_L4M8GR1_M32_A17R_WDQS 0x51
+#define MR3_LPDDR4_MICRON_L4M8GR1_M32_A17R_WDQS  0xB3
+
+
+//for multi-file micron 2g
+#define ATxSlewRate_LPDDR4_MICRON_L4M16G_M32_A1RA 0x15F
+#define ATxImpedance_LPDDR4_MICRON_L4M16G_M32_A1RA 0x7F
+#define TxSlewRate_LPDDR4_MICRON_L4M16G_M32_A1RA 0x17F
+#define TxOdtDrvStren_LPDDR4_MICRON_L4M16G_M32_A1RA 0x200
+#define TxImpedanceCtrl1_LPDDR4_MICRON_L4M16G_M32_A1RA 0xE3F
+#define MR11_LPDDR4_MICRON_L4M16G_M32_A1RA 0x43
+#define MR14_LPDDR4_MICRON_L4M16G_M32_A1RA 0x4C
+#define MR22_LPDDR4_MICRON_L4M16G_M32_A1RA 0x14
+#define MR12_LPDDR4_MICRON_L4M16G_M32_A1RA MR14_LPDDR4_MICRON_L4M16G_M32_A1RA
+#define MR3_LPDDR4_MICRON_L4M16G_M32_A1RA 0xB3
+
+//for multi-file
+#define ATxSlewRate_LPDDR4_MICRON_L4M32GR1_M32_A17RA 0x15F
+#define ATxImpedance_LPDDR4_MICRON_L4M32GR1_M32_A17RA 0x7F
+#define TxSlewRate_LPDDR4_MICRON_L4M32GR1_M32_A17RA 0x19F
+#define TxOdtDrvStren_LPDDR4_MICRON_L4M32GR1_M32_A17RA 0x600
+#define TxImpedanceCtrl1_LPDDR4_MICRON_L4M32GR1_M32_A17RA 0xE3F
+#define MR11_LPDDR4_MICRON_L4M32GR1_M32_A17RA 0x54
+#define MR14_LPDDR4_MICRON_L4M32GR1_M32_A17RA 0x54
+#define MR22_LPDDR4_MICRON_L4M32GR1_M32_A17RA 0x14
+#define MR12_LPDDR4_MICRON_L4M32GR1_M32_A17RA 0x51
+#define MR3_LPDDR4_MICRON_L4M32GR1_M32_A17RA 0xB3
+#endif
