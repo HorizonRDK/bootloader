@@ -1843,11 +1843,11 @@ void lpddr4_ddrp_samsung_write_to_bin(char *file, unsigned int freq,
 			ddrp_dfs_size = tmp_dfs_size;
 	}
 #endif
-#ifdef YMODEM_BOOT
+
 	hdr_uart.ddr_ddrp.addr = hdr_uart.ddr_ddrc.addr +
 		ALIGN_512(hdr_uart.ddr_ddrc.size);
 	hdr_uart.ddr_ddrp.size = ddrp_size;
-#else
+
 	hdr_ddr.ddr[index].ddr_ddrp.addr = hdr_ddr.ddr[index].ddr_ddrc_freqs.addr +
 		ALIGN_512(hdr_ddr.ddr[index].ddr_ddrc_freqs.size);
 	hdr_ddr.ddr[index].ddr_ddrp.size = ddrp_size;
@@ -1855,7 +1855,7 @@ void lpddr4_ddrp_samsung_write_to_bin(char *file, unsigned int freq,
 	hdr_ddr.ddr[index].ddr_ddrp_freqs.addr = hdr_ddr.ddr[index].ddr_ddrp.addr +
 		ALIGN_512(hdr_ddr.ddr[index].ddr_ddrp.size);
 	hdr_ddr.ddr[index].ddr_ddrp_freqs.size = ddrp_dfs_size;
-#endif
+
 	pclose(fp);
 	return;
 }
