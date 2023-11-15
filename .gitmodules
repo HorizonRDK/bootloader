@@ -1,3 +1,0 @@
-[submodule "uboot"]
-	path = uboot
-	url = git@github.com:HorizonRoboticsRDK/uboot.git
